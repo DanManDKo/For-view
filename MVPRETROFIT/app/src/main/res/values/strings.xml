@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MvpRetrofit</string>
+    <string name="categories">Categories</string>
+    <string name="products">Products</string>
+    <string name="info">Info</string>
+    <string name="read_more">Read more...</string>
+    <string name="loading">Loading...</string>
+    <string name="gallery">Gallery</string>
+    <string name="network_troubles">The network isn\'t available</string>
+    <string name="refresh">Refresh</string>
+    <string name="empty_product_list">There aren\'t any favorite products yet :(</string>
+    <string name="favorites">Favorites</string>
+</resources>
