@@ -49,18 +49,15 @@ public class ProductInfoActivity extends AppCompatActivity implements ImageAdapt
         initViews();
         mFavoritesManager = App.getFavoritesManager();
         if (mFavoritesManager.isFavorite(mProduct)) {
-            mProduct.setFavorite(true);
             mFavoriteImageView.setImageResource(R.drawable.ic_favorite);
         }
         mFavoriteImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mProduct.isFavorite()) {
-                    mProduct.setFavorite(false);
+                if (mFavoritesManager.isFavorite(mProduct)) {
                     mFavoritesManager.removeFavorite(mProduct);
                     mFavoriteImageView.setImageResource(R.drawable.ic_not_favorite);
                 } else {
-                    mProduct.setFavorite(true);
                     mFavoritesManager.addFavorite(mProduct);
                     mFavoriteImageView.setImageResource(R.drawable.ic_favorite);
                 }
@@ -129,5 +126,9 @@ public class ProductInfoActivity extends AppCompatActivity implements ImageAdapt
         startActivity(intent);
     }
 
-
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mFavoritesManager.save();
+    }
 }

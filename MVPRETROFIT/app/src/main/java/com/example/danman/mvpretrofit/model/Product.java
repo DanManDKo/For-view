@@ -34,7 +34,6 @@ public class Product extends RealmObject implements Parcelable {
     private String itemWeight;
     @SerializedName("Images")
     private RealmList<Image> images;
-    private boolean favorite;
 
     protected Product(Parcel in) {
         productId = in.readString();
@@ -65,9 +64,6 @@ public class Product extends RealmObject implements Parcelable {
         }
     };
 
-    public void setFavorite(boolean favorite) {
-        this.favorite = favorite;
-    }
 
     public void setImages(RealmList<Image> images) {
         this.images = images;
@@ -145,9 +141,6 @@ public class Product extends RealmObject implements Parcelable {
         return itemWeight;
     }
 
-    public boolean isFavorite() {
-        return favorite;
-    }
 
     public List<Image> getImages() {
         return images;
@@ -174,14 +167,13 @@ public class Product extends RealmObject implements Parcelable {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
+
+//        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
         Product product = (Product) o;
 
-        if (favorite != product.favorite) return false;
-        if (productId != null ? !productId.equals(product.productId) : product.productId != null)
-            return false;
+        if (!productId.equals(product.productId)) return false;
         if (state != null ? !state.equals(product.state) : product.state != null) return false;
         if (categoryId != null ? !categoryId.equals(product.categoryId) : product.categoryId != null)
             return false;
@@ -201,7 +193,7 @@ public class Product extends RealmObject implements Parcelable {
 
     @Override
     public int hashCode() {
-        int result = productId != null ? productId.hashCode() : 0;
+        int result = productId.hashCode();
         result = 31 * result + (state != null ? state.hashCode() : 0);
         result = 31 * result + (categoryId != null ? categoryId.hashCode() : 0);
         result = 31 * result + (title != null ? title.hashCode() : 0);
@@ -211,7 +203,6 @@ public class Product extends RealmObject implements Parcelable {
         result = 31 * result + (quantity != null ? quantity.hashCode() : 0);
         result = 31 * result + (itemWeight != null ? itemWeight.hashCode() : 0);
         result = 31 * result + (images != null ? images.hashCode() : 0);
-        result = 31 * result + (favorite ? 1 : 0);
         return result;
     }
 }

@@ -251,4 +251,65 @@ public class Image extends RealmObject implements Parcelable {
         parcel.writeString(fullHeight);
         parcel.writeString(fullWidth);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Image image = (Image) o;
+
+        if (!listingImageId.equals(image.listingImageId)) return false;
+        if (hexCode != null ? !hexCode.equals(image.hexCode) : image.hexCode != null) return false;
+        if (red != null ? !red.equals(image.red) : image.red != null) return false;
+        if (green != null ? !green.equals(image.green) : image.green != null) return false;
+        if (blue != null ? !blue.equals(image.blue) : image.blue != null) return false;
+        if (hue != null ? !hue.equals(image.hue) : image.hue != null) return false;
+        if (saturation != null ? !saturation.equals(image.saturation) : image.saturation != null)
+            return false;
+        if (brightness != null ? !brightness.equals(image.brightness) : image.brightness != null)
+            return false;
+        if (blackAndWhite != null ? !blackAndWhite.equals(image.blackAndWhite) : image.blackAndWhite != null)
+            return false;
+        if (creationTsz != null ? !creationTsz.equals(image.creationTsz) : image.creationTsz != null)
+            return false;
+        if (productId != null ? !productId.equals(image.productId) : image.productId != null)
+            return false;
+        if (rank != null ? !rank.equals(image.rank) : image.rank != null) return false;
+        if (url75x75 != null ? !url75x75.equals(image.url75x75) : image.url75x75 != null)
+            return false;
+        if (url170x135 != null ? !url170x135.equals(image.url170x135) : image.url170x135 != null)
+            return false;
+        if (url570xN != null ? !url570xN.equals(image.url570xN) : image.url570xN != null)
+            return false;
+        if (urlFullxFull != null ? !urlFullxFull.equals(image.urlFullxFull) : image.urlFullxFull != null)
+            return false;
+        if (fullHeight != null ? !fullHeight.equals(image.fullHeight) : image.fullHeight != null)
+            return false;
+        return fullWidth != null ? fullWidth.equals(image.fullWidth) : image.fullWidth == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = listingImageId.hashCode();
+        result = 31 * result + (hexCode != null ? hexCode.hashCode() : 0);
+        result = 31 * result + (red != null ? red.hashCode() : 0);
+        result = 31 * result + (green != null ? green.hashCode() : 0);
+        result = 31 * result + (blue != null ? blue.hashCode() : 0);
+        result = 31 * result + (hue != null ? hue.hashCode() : 0);
+        result = 31 * result + (saturation != null ? saturation.hashCode() : 0);
+        result = 31 * result + (brightness != null ? brightness.hashCode() : 0);
+        result = 31 * result + (blackAndWhite != null ? blackAndWhite.hashCode() : 0);
+        result = 31 * result + (creationTsz != null ? creationTsz.hashCode() : 0);
+        result = 31 * result + (productId != null ? productId.hashCode() : 0);
+        result = 31 * result + (rank != null ? rank.hashCode() : 0);
+        result = 31 * result + (url75x75 != null ? url75x75.hashCode() : 0);
+        result = 31 * result + (url170x135 != null ? url170x135.hashCode() : 0);
+        result = 31 * result + (url570xN != null ? url570xN.hashCode() : 0);
+        result = 31 * result + (urlFullxFull != null ? urlFullxFull.hashCode() : 0);
+        result = 31 * result + (fullHeight != null ? fullHeight.hashCode() : 0);
+        result = 31 * result + (fullWidth != null ? fullWidth.hashCode() : 0);
+        return result;
+    }
 }

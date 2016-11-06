@@ -19,6 +19,7 @@ public class FavoritesManager {
         mFavorites.addAll(mDbManager.getFavorites());
 
     }
+
     public void addFavorite(Product product) {
         mFavorites.add(product);
     }
@@ -41,15 +42,11 @@ public class FavoritesManager {
     }
 
     public boolean isFavorite(Product product) {
+        if (mFavorites.isEmpty())
+            return false;
         return mFavorites.contains(product);
     }
 
-    private boolean contains(Product product) {
-        for (int i = 0; i < mFavorites.size(); i++) {
-            if (product.equals(mFavorites.get(i)))
-                return true;
-        }
-        return false;
-    }
+
 
 }
