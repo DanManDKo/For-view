@@ -10,4 +10,6 @@
     <string name="refresh">Refresh</string>
     <string name="empty_product_list">There aren\'t any favorite products yet :(</string>
     <string name="favorites">Favorites</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
