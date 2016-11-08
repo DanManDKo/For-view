@@ -30,7 +30,7 @@
         </activity>
         <activity
             android:name=".ui.activity.FavoriteListActivity"
-            android:parentActivityName=".ui.activity.ProductsListActivity"/>
+            />
     </application>
 
 </manifest>

@@ -27,6 +27,7 @@ public class FavoritesManager {
     public boolean removeFavorite(Product product) {
         if (isFavorite(product)) {
             mFavorites.remove(product);
+            mDbManager.removeFavorite(product);
             return true;
         }
         return false;

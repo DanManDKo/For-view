@@ -14,25 +14,12 @@ import rx.Subscriber;
 /**
  * Created by DanMan on 13.10.2016.
  */
-public class ProductsPresenter implements ProductsContract.presenter {
+public  class ProductsPresenter implements ProductsContract.presenter {
     private ProductsContract.View mView;
 
     @Override
     public void loadProducts(String categoryName, int page) {
 
-//        Call<Response<Product>> call = App.getApiManager().loadProducts(categoryName, page);
-//        call.enqueue(new Callback<Response<Product>>() {
-//            @Override
-//            public void onResponse(retrofit2.Response<Response<Product>> response, Retrofit retrofit) {
-//                List<Product> products = response.body().getResults();
-//                mView.onProductsLoaded(products);
-//            }
-//
-//            @Override
-//            public void onFailure(Throwable t) {
-//                mView.onError(t.getMessage());
-//            }
-//        });
         App.getApiManager().loadProducts(categoryName, page).subscribe(new Subscriber<retrofit2.Response<Response<Product>>>() {
             @Override
             public void onCompleted() {
@@ -52,10 +39,9 @@ public class ProductsPresenter implements ProductsContract.presenter {
 
     }
 
+    @Override
+     public void loadProducts() {}
 
-    private void productsLoaded(List<Product> products) {
-        mView.onProductsLoaded(products);
-    }
 
     @Override
     public void attachView(ProductsContract.View view) {

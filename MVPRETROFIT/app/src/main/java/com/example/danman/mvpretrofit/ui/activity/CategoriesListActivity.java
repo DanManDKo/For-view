@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -39,6 +40,12 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
     private DrawerLayout mDrawerLayout;
     private NavigationView mNavigationView;
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNavigationView.setCheckedItem(R.id.categories_item_menu);
+    }
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categories_list_activity);
@@ -69,12 +76,12 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
     private void initDrawer() {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.categories_drawer_layout);
         mNavigationView = (NavigationView) findViewById(R.id.categories_navigation_view);
-        mNavigationView.setCheckedItem(R.id.categories_item_menu);
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.favorites_item_menu) {
                     Intent intent = new Intent(CategoriesListActivity.this, FavoriteListActivity.class);
+                    mDrawerLayout.closeDrawer(mNavigationView);
                     startActivity(intent);
                     return true;
                 }

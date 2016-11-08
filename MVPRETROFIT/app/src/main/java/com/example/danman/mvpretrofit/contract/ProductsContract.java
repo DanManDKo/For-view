@@ -11,6 +11,7 @@ import java.util.List;
 public class ProductsContract {
     public  interface presenter extends BaseMvpPresenter<View> {
         void loadProducts(String categoryName, int page);
+        void loadProducts();
     }
     public interface View {
         void onProductsLoaded(List<Product>products);

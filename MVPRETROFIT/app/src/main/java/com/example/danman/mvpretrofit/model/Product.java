@@ -168,7 +168,7 @@ public class Product extends RealmObject implements Parcelable {
     @Override
     public boolean equals(Object o) {
 
-//        if (this == o) return true;
+        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
         Product product = (Product) o;
