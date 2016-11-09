@@ -9,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.widget.ProgressBar;
 
 import com.example.danman.mvpretrofit.R;
@@ -31,12 +32,17 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsC
     private ProductsAdapter adapter;
     private Toolbar mToolbar;
     private ProgressBar mProgressBar;
+    private final String NAME_EXTRA_KEY = "name";
+    private final String PRODUCT_EXTRA_KEY = "product";
+    private final String TAG = "products";
+    private final int FIRST_PAGE = 1;
+    private String mName;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_list_activity);
-        final String name = getIntent().getStringExtra("name");
+        mName = getIntent().getStringExtra(NAME_EXTRA_KEY);
         initViews();
         adapter = new ProductsAdapter(mProducts);
         adapter.setOnItemClick(this);
@@ -46,16 +52,14 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsC
         mRecyclerView.addOnScrollListener(new EndlessRecyclerViewScrollListener(linearLayoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount) {
-                Snackbar snackbar = Snackbar.make(findViewById(R.id.product_list_activity_layout),R.string.loading,Snackbar.LENGTH_SHORT);
+                Snackbar snackbar = Snackbar.make(findViewById(R.id.product_list_activity_layout), R.string.loading, Snackbar.LENGTH_SHORT);
                 snackbar.show();
-                mProductsPresenter.loadProducts(name, page);
+                mProductsPresenter.loadProducts(mName, page);
             }
         });
         mProductsPresenter = new ProductsPresenter();
         mProductsPresenter.attachView(this);
-
-        mProductsPresenter.loadProducts(name, 1);
-
+        mProductsPresenter.loadProducts(mName, FIRST_PAGE);
     }
 
     private void initViews() {
@@ -79,24 +83,21 @@ public class ProductsListActivity extends AppCompatActivity implements ProductsC
 
     @Override
     public void onProductsLoaded(List<Product> products) {
-        mProgressBar.setVisibility(android.view.View.GONE);
-        mRecyclerView.setVisibility(android.view.View.VISIBLE);
-
+        mProgressBar.setVisibility(View.GONE);
+        mRecyclerView.setVisibility(View.VISIBLE);
         mProducts.addAll(products);
         adapter.notifyDataSetChanged();
-
-
     }
 
     @Override
     public void onError(String message) {
-        Log.e("error", message);
+        Log.e(TAG, message);
     }
 
     @Override
     public void onItemClick(Product product) {
         Intent intent = new Intent(this, ProductInfoActivity.class);
-        intent.putExtra("product", product);
+        intent.putExtra(PRODUCT_EXTRA_KEY, product);
         startActivity(intent);
     }
 

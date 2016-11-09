@@ -17,7 +17,9 @@ import io.realm.exceptions.RealmException;
  * Created by DanMan on 26.10.2016.
  */
 public class DbManager {
+    private final String PRODUCT_ID = "productId";
     private Realm realm;
+    private final String TAG = "realm";
 
     public DbManager() {
         realm = Realm.getDefaultInstance();
@@ -30,46 +32,37 @@ public class DbManager {
             realm.commitTransaction();
         } catch (Exception ex) {
             realm.cancelTransaction();
-            Log.e("realm", ex.getMessage());
+            Log.e(TAG, ex.getMessage());
         }
     }
 
-
     public List<Category> getCategories() {
-
         return realm.where(Category.class).findAll();
-
     }
 
     public void addFavorites(List<Product> products) {
-
         realm.beginTransaction();
         realm.copyToRealmOrUpdate(products);
         realm.commitTransaction();
-
     }
 
     public List<Product> getFavorites() {
-
         return realm.where(Product.class).findAll();
-
     }
 
     public boolean removeFavorite(Product product) {
         try {
             RealmResults<Product> products = realm.where(Product.class)
                     .beginGroup()
-                    .equalTo("productId", product.getProductId())
+                    .equalTo(PRODUCT_ID, product.getProductId())
                     .endGroup().findAll();
-            if (!products.isEmpty()) {
-                realm.beginTransaction();
-                products.deleteAllFromRealm();
-                realm.commitTransaction();
-            }
+            realm.beginTransaction();
+            products.deleteAllFromRealm();
+            realm.commitTransaction();
             return true;
         } catch (Exception ex) {
             realm.cancelTransaction();
-            Log.e("realm", ex.getMessage());
+            Log.e(TAG, ex.getMessage());
         }
         return false;
     }

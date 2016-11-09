@@ -17,12 +17,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.danman.mvpretrofit.App;
 import com.example.danman.mvpretrofit.R;
-import com.example.danman.mvpretrofit.contract.ProductsContract;
+import com.example.danman.mvpretrofit.contract.FavoritesContract;
 import com.example.danman.mvpretrofit.model.Product;
 import com.example.danman.mvpretrofit.presenter.FavoritesPresenter;
-import com.example.danman.mvpretrofit.presenter.ProductsPresenter;
 import com.example.danman.mvpretrofit.ui.adapter.ProductsAdapter;
 
 import java.util.ArrayList;
@@ -31,7 +29,7 @@ import java.util.List;
 /**
  * Created by DanMan on 05.11.2016.
  */
-public class FavoriteListActivity extends AppCompatActivity implements ProductsContract.View, ProductsAdapter.OnProductClickCallBack {
+public class FavoriteListActivity extends AppCompatActivity implements FavoritesContract.View, ProductsAdapter.OnProductClickCallBack {
     private RecyclerView mRecyclerView;
     private Toolbar mToolbar;
     private ProductsAdapter mAdapter;
@@ -41,7 +39,8 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
     private ActionBarDrawerToggle mToggle;
     private DrawerLayout mDrawerLayout;
     private NavigationView mNavigationView;
-
+    private final String TAG = "favorites";
+    private final String PRODUCT_EXTRA_KEY ="product";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,17 +52,14 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
         mAdapter.setOnItemClick(this);
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
-            mNavigationView.setCheckedItem(R.id.favorites_item_menu);
-            mFavoritesPresenter.loadProducts();
-            mAdapter.notifyDataSetChanged();
-
+        mNavigationView.setCheckedItem(R.id.favorites_item_menu);
+        mFavoritesPresenter.loadProducts();
+        mAdapter.notifyDataSetChanged();
     }
 
     private void initViews() {
@@ -90,7 +86,6 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
         });
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
-
         mToggle.syncState();
     }
 
@@ -106,12 +101,12 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
 
     @Override
     public void onProductsLoaded(List<Product> products) {
-        if(!products.isEmpty()) {
+        if (!products.isEmpty()) {
             mFavoritesAbsent.setVisibility(View.GONE);
             mRecyclerView.setVisibility(View.VISIBLE);
             mProducts.addAll(products);
             mAdapter.notifyDataSetChanged();
-        }else {
+        } else {
             mFavoritesAbsent.setVisibility(View.VISIBLE);
             mRecyclerView.setVisibility(View.GONE);
         }
@@ -121,7 +116,7 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
 
     @Override
     public void onError(String message) {
-        Log.e("error", message);
+        Log.e(TAG, message);
     }
 
     @Override
@@ -133,7 +128,7 @@ public class FavoriteListActivity extends AppCompatActivity implements ProductsC
     @Override
     public void onItemClick(Product product) {
         Intent intent = new Intent(this, ProductInfoActivity.class);
-        intent.putExtra("product", product);
+        intent.putExtra(PRODUCT_EXTRA_KEY, product);
         startActivity(intent);
     }
 }

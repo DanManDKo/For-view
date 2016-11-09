@@ -1,10 +1,10 @@
 package com.example.danman.mvpretrofit.ui.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -15,7 +15,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
@@ -29,7 +28,7 @@ import java.util.List;
 
 import io.realm.Realm;
 
-public class CategoriesListActivity extends AppCompatActivity implements CategoriesContract.iView, CategoriesAdapter.OnCategoryClickCallBack {
+public class CategoriesListActivity extends AppCompatActivity implements CategoriesContract.View, CategoriesAdapter.OnCategoryClickCallBack {
     private RecyclerView mRecyclerView;
     private CategoriesPresenter mCategoriesPresenter;
     private Toolbar mToolbar;
@@ -39,7 +38,8 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
     private ActionBarDrawerToggle mToggle;
     private DrawerLayout mDrawerLayout;
     private NavigationView mNavigationView;
-
+    private final String NAME_EXTRA_KEY = "name";
+    private final String TAG = "categories";
     @Override
     protected void onResume() {
         super.onResume();
@@ -85,25 +85,28 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
                     startActivity(intent);
                     return true;
                 }
-
                 return false;
             }
         });
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
-
         mToggle.syncState();
     }
 
     @Override
     public void onCategoriesLoaded(List<Category> categories) {
         this.mCategories = categories;
-        mProgressBar.setVisibility(View.GONE);
-        mRecyclerView.setVisibility(View.VISIBLE);
+        mProgressBar.setVisibility(android.view.View.GONE);
+        mRecyclerView.setVisibility(android.view.View.VISIBLE);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         CategoriesAdapter categoriesAdapter = new CategoriesAdapter(categories);
         categoriesAdapter.setOnItemClick(this);
         mRecyclerView.setAdapter(categoriesAdapter);
+    }
+
+    @Override
+    public Context getContext() {
+        return this;
     }
 
     private void loadData() {
@@ -113,20 +116,18 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
         } else {
             mCategoriesPresenter.loadCategoriesFromDB();
             Snackbar.make(mRelativeLayout, R.string.network_troubles, Snackbar.LENGTH_INDEFINITE)
-                    .setAction(R.string.refresh, new View.OnClickListener() {
+                    .setAction(R.string.refresh, new android.view.View.OnClickListener() {
                                 @Override
-                                public void onClick(View view) {
+                                public void onClick(android.view.View view) {
                                     loadData();
                                 }
                             }
                     ).show();
         }
     }
-
-
     @Override
     public void onError(String message) {
-        Log.e("error", message);
+        Log.e(TAG, message);
     }
 
     @Override
@@ -138,7 +139,7 @@ public class CategoriesListActivity extends AppCompatActivity implements Categor
     @Override
     public void onItemClick(Category category) {
         Intent intent = new Intent(this, ProductsListActivity.class);
-        intent.putExtra("name", category.getName());
+        intent.putExtra(NAME_EXTRA_KEY, category.getName());
         startActivity(intent);
     }
 }

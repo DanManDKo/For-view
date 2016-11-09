@@ -1,6 +1,8 @@
 package com.example.danman.mvpretrofit.presenter;
 
 
+import android.util.Log;
+
 import com.example.danman.mvpretrofit.App;
 import com.example.danman.mvpretrofit.contract.ProductsContract;
 import com.example.danman.mvpretrofit.model.Product;
@@ -14,8 +16,9 @@ import rx.Subscriber;
 /**
  * Created by DanMan on 13.10.2016.
  */
-public  class ProductsPresenter implements ProductsContract.presenter {
+public class ProductsPresenter implements ProductsContract.presenter {
     private ProductsContract.View mView;
+    private final String TAG = "Api";
 
     @Override
     public void loadProducts(String categoryName, int page) {
@@ -28,7 +31,7 @@ public  class ProductsPresenter implements ProductsContract.presenter {
 
             @Override
             public void onError(Throwable e) {
-
+                Log.e(TAG, e.getMessage());
             }
 
             @Override
@@ -36,12 +39,7 @@ public  class ProductsPresenter implements ProductsContract.presenter {
                 mView.onProductsLoaded(responseResponse.body().getResults());
             }
         });
-
     }
-
-    @Override
-     public void loadProducts() {}
-
 
     @Override
     public void attachView(ProductsContract.View view) {

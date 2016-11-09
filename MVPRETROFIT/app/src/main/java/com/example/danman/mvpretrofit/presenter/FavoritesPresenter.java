@@ -1,6 +1,7 @@
 package com.example.danman.mvpretrofit.presenter;
 
 import com.example.danman.mvpretrofit.App;
+import com.example.danman.mvpretrofit.contract.FavoritesContract;
 import com.example.danman.mvpretrofit.contract.ProductsContract;
 import com.example.danman.mvpretrofit.model.Product;
 
@@ -9,14 +10,8 @@ import java.util.List;
 /**
  * Created by DanMan on 05.11.2016.
  */
-public class FavoritesPresenter implements ProductsContract.presenter {
-    private ProductsContract.View mView;
-
-
-    @Override
-    public void loadProducts(String categoryName, int page) {
-    }
-
+public class FavoritesPresenter implements FavoritesContract.presenter {
+    private FavoritesContract.View mView;
 
     @Override
     public void loadProducts() {
@@ -25,7 +20,7 @@ public class FavoritesPresenter implements ProductsContract.presenter {
     }
 
     @Override
-    public void attachView(ProductsContract.View view) {
+    public void attachView(FavoritesContract.View view) {
         mView = view;
     }
 

@@ -3,9 +3,11 @@ package com.example.danman.mvpretrofit.presenter;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 
 import com.example.danman.mvpretrofit.App;
+import com.example.danman.mvpretrofit.R;
 import com.example.danman.mvpretrofit.contract.CategoriesContract;
 import com.example.danman.mvpretrofit.manager.DbManager;
 import com.example.danman.mvpretrofit.model.Category;
@@ -21,31 +23,24 @@ import rx.Subscriber;
  * Created by DanMan on 11.10.2016.
  */
 public class CategoriesPresenter implements CategoriesContract.presenter {
-    private CategoriesContract.iView mView;
+    private CategoriesContract.View mView;
     private DbManager mDbManager = App.getDbManager();
-
+    private final String TAG = "presenter";
     public void loadCategoriesFromNetwork() {
-
         App.getApiManager().loadCategories().subscribe(new Subscriber<retrofit2.Response<Response<Category>>>() {
-
             @Override
             public void onCompleted() {
-
             }
-
             @Override
             public void onError(Throwable e) {
-                Log.e("presenter", e.getMessage());
+                Log.e(TAG, e.getMessage());
             }
-
             @Override
             public void onNext(retrofit2.Response<Response<Category>> responseResponse) {
                 List<Category> categories = responseResponse.body().getResults();
                 mDbManager.insertOrUpdateCategories(categories);
                 mView.onCategoriesLoaded(categories);
             }
-
-
         });
     }
 
@@ -61,20 +56,19 @@ public class CategoriesPresenter implements CategoriesContract.presenter {
 
     @Override
     public boolean isOnline() {
-        ConnectivityManager manager =
-                (ConnectivityManager) ((CategoriesListActivity) mView).getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager manager = (ConnectivityManager) mView.getContext()
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
         boolean isAvailable = false;
         if (networkInfo != null && networkInfo.isConnected()) {
             isAvailable = true;
         }
         return isAvailable;
-
     }
 
 
     @Override
-    public void attachView(CategoriesContract.iView view) {
+    public void attachView(CategoriesContract.View view) {
         mView = view;
     }
 
@@ -82,4 +76,5 @@ public class CategoriesPresenter implements CategoriesContract.presenter {
     public void detachView() {
         mView = null;
     }
+
 }

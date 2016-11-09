@@ -3,6 +3,7 @@ package com.example.danman.mvpretrofit.api;
 import com.example.danman.mvpretrofit.model.Category;
 import com.example.danman.mvpretrofit.model.Product;
 import com.example.danman.mvpretrofit.model.Response;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -12,15 +13,21 @@ import rx.Observable;
  * Created by DanMan on 10.10.2016.
  */
 public interface ApiService {
-    @GET("/v2/taxonomy/categories")
-    Observable<retrofit2.Response<Response<Category>>> loadCategories(@Query("api_key") String apiKey);
+    String API_KEY = "api_key";
+    String CATEGORY = "category";
+    String PAGE = "page";
+    String INCLUDES = "includes";
+    String CATEGORY_REQUEST = "/v2/taxonomy/categories";
+    String PRODUCT_REQUEST = "/v2/listings/active";
 
-    @GET("/v2/listings/active")
-    Observable<retrofit2.Response<Response<Product>>> loadProducts(@Query("api_key") String apiKey,
-                                         @Query("category") String category,
-                                         @Query("page") int page,
-                                         @Query("includes") String images);
+    @GET(CATEGORY_REQUEST)
+    Observable<retrofit2.Response<Response<Category>>> loadCategories(@Query(API_KEY) String apiKey);
 
+    @GET(PRODUCT_REQUEST)
+    Observable<retrofit2.Response<Response<Product>>> loadProducts(@Query(API_KEY) String apiKey,
+                                                                   @Query(CATEGORY) String category,
+                                                                   @Query(PAGE) int page,
+                                                                   @Query(INCLUDES) String images);
 
 
 }

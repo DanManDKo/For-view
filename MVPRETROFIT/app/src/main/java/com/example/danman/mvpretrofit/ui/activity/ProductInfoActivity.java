@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.net.ParseException;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -41,12 +40,13 @@ public class ProductInfoActivity extends AppCompatActivity implements ImageAdapt
     private CirclePageIndicator mCirclePageIndicator;
     private FavoritesManager mFavoritesManager;
     private ImageView mFavoriteImageView;
-
+    private final String PRODUCT_EXTRA_KEY = "product";
+    private final String TAG ="product";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_info_activity);
-        mProduct = getIntent().getParcelableExtra("product");
+        mProduct = getIntent().getParcelableExtra(PRODUCT_EXTRA_KEY);
         initViews();
         mFavoritesManager = App.getFavoritesManager();
         if (mFavoritesManager.isFavorite(mProduct)) {
@@ -90,7 +90,7 @@ public class ProductInfoActivity extends AppCompatActivity implements ImageAdapt
                         Integer.parseInt(image.getBlue()));
                 mToolbar.setBackgroundColor(mColorOfToolbar);
             } catch (ParseException ex) {
-                Log.e("toolbarEX", ex.getMessage());
+                Log.e(TAG, ex.getMessage());
             }
         }
         setSupportActionBar(mToolbar);
@@ -123,7 +123,7 @@ public class ProductInfoActivity extends AppCompatActivity implements ImageAdapt
     @Override
     public void onItemClick() {
         Intent intent = new Intent(ProductInfoActivity.this, GalleryActivity.class);
-        intent.putExtra("product", mProduct);
+        intent.putExtra(PRODUCT_EXTRA_KEY, mProduct);
         startActivity(intent);
     }
 

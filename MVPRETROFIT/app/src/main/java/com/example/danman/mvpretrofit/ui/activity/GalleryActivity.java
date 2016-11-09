@@ -21,14 +21,15 @@ public class GalleryActivity extends AppCompatActivity {
     private ViewPager mViewPager;
     private ImageAdapter mImageAdapter;
     private Toolbar mToolbar;
-
+    private final String PRODUCT_EXTRA_KEY = "product";
+    private final int PAGE_LIMIT = 1;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_activity);
-        mProduct = getIntent().getParcelableExtra("product");
+        mProduct = getIntent().getParcelableExtra(PRODUCT_EXTRA_KEY);
         initViews();
-        mViewPager.setOffscreenPageLimit(1);
+        mViewPager.setOffscreenPageLimit(PAGE_LIMIT);
         mImageAdapter = new ImageAdapter();
         mImageAdapter.setItem(R.layout.item_view_pager_fit_center);
         mImageAdapter.addViews(mProduct.getImages());
@@ -41,7 +42,8 @@ public class GalleryActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.pager_gallery);
 
     }
-    private void initToolbar(){
+
+    private void initToolbar() {
         mToolbar = (Toolbar) findViewById(R.id.gallery_toolbar);
         mToolbar.setBackgroundColor(Color.BLACK);
         setSupportActionBar(mToolbar);
@@ -49,6 +51,7 @@ public class GalleryActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setTitle(R.string.gallery);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
