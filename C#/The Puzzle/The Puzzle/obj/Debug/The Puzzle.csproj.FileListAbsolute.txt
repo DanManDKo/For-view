@@ -1,0 +1,9 @@
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\bin\Debug\The Puzzle.exe.config
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\bin\Debug\The Puzzle.exe
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\bin\Debug\The Puzzle.pdb
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The Puzzle.csprojResolveAssemblyReference.cache
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The_Puzzle.Form1.resources
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The_Puzzle.Properties.Resources.resources
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The Puzzle.csproj.GenerateResource.Cache
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The Puzzle.exe
+c:\users\danman\documents\visual studio 2015\Projects\The Puzzle\The Puzzle\obj\Debug\The Puzzle.pdb
