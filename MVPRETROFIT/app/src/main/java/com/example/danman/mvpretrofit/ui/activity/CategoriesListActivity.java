@@ -28,7 +28,8 @@ import java.util.List;
 
 import io.realm.Realm;
 
-public class CategoriesListActivity extends AppCompatActivity implements CategoriesContract.View, CategoriesAdapter.OnCategoryClickCallBack {
+public class CategoriesListActivity extends AppCompatActivity implements CategoriesContract.View,
+        CategoriesAdapter.OnCategoryClickCallBack {
     private RecyclerView mRecyclerView;
     private CategoriesPresenter mCategoriesPresenter;
     private Toolbar mToolbar;

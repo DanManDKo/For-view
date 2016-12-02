@@ -13,7 +13,7 @@ import rx.Observable;
  * Created by DanMan on 10.10.2016.
  */
 public interface ApiService {
-    String API_KEY = "api_key";
+    String  API_KEY = "api_key";
     String CATEGORY = "category";
     String PAGE = "page";
     String INCLUDES = "includes";
