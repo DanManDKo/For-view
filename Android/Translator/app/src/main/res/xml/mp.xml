@@ -1,0 +1,5008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+    <card>
+        <word wordId="1">machine</word>
+        <meanings>
+            <meaning
+                sound="machine.wav"
+                transcription="Ґ†'ЏЂ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>машина, механизм</word>
+                    <word>станок</word>
+                </translations>
+                <examples>
+                    <example>answering machine — автоответчик</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="2">mad</word>
+        <meanings>
+            <meaning
+                sound="mad.wav"
+                transcription="Ґ‡¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>сумасшедший, ненормальный</word>
+                    <word>бешеный, безумный</word>
+                </translations>
+                <examples>
+                    <example>to fall / go / run mad — сойти с ума, обезуметь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="3">mail</word>
+        <meanings>
+            <meaning
+                sound="mail.wav"
+                transcription="ҐўЎ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>почта (система доставки корреспонденции)</word>
+                </translations>
+                <examples>
+                    <example>by mail — по почте</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="4">main</word>
+        <meanings>
+            <meaning
+                sound="main.wav"
+                transcription="ҐўЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>главная часть</word>
+                    <word>основное</word>
+                </translations>
+                <examples>
+                    <example>electric main — линия электропередач</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="5">mainly</word>
+        <meanings>
+            <meaning
+                sound="mainly.wav"
+                transcription="'ҐўЎ­®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>главным образом, преимущественно, в основном</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="6">maintain</word>
+        <meanings>
+            <meaning
+                sound="maintain.wav"
+                transcription="ҐўЎ­'«ўЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>поддерживать, сохранять (в состоянии, которое имеется на данный момент,
+                        особенно в хорошем)
+                    </word>
+                </translations>
+                <examples>
+                    <example>to maintain one's composure — сохранять спокойствие, оставаться
+                        хладнокровным
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="7">major</word>
+        <meanings>
+            <meaning
+                sound="major.wav"
+                transcription="'ҐўЎ‹†">
+                <statistics status="2"/>
+                <translations>
+                    <word>майор (офицерское воинское звание во многих армиях мира)</word>
+                </translations>
+                <examples>
+                    <example>major problem — насущная, острая проблема</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="8">majority</word>
+        <meanings>
+            <meaning
+                sound="majority.wav"
+                transcription="Ґ†'‹€Ї†«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>большинство</word>
+                </translations>
+                <examples>
+                    <example>in the majority of cases — в большинстве случаев</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="9">make</word>
+        <meanings>
+            <meaning
+                sound="make.wav"
+                transcription="ҐўЎ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>делать, конструировать, создавать, изготавливать</word>
+                </translations>
+                <examples>
+                    <example>houses made of stone — дома из камня</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="10">make into</word>
+        <meanings>
+            <meaning>
+                <statistics status="2"/>
+                <translations>
+                    <word>заменять</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="11">make up</word>
+        <meanings>
+            <meaning>
+                <statistics status="2"/>
+                <translations>
+                    <word>выдумывать</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="12">male</word>
+        <meanings>
+            <meaning transcription="ҐўЎ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>мужчина</word>
+                </translations>
+                <examples>
+                    <example>male chauvinist — сторонник мужского шовинизма</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="13">man</word>
+        <meanings>
+            <meaning
+                sound="man.wav"
+                transcription="Ґ‡­">
+                <statistics status="2"/>
+                <translations>
+                    <word>человек, мужчина</word>
+                </translations>
+                <examples>
+                    <example>fat man — толстый человек</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="14">manage</word>
+        <meanings>
+            <meaning
+                sound="manage.wav"
+                transcription="'Ґ‡­Ў‹">
+                <statistics status="2"/>
+                <translations>
+                    <word>руководить, управлять, заведовать</word>
+                    <word>стоять во главе</word>
+                </translations>
+                <examples>
+                    <example>to manage a baseball team — руководить бейсбольной командой</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="15">manner</word>
+        <meanings>
+            <meaning
+                sound="manner.wav"
+                transcription="'Ґ‡­†">
+                <statistics status="2"/>
+                <translations>
+                    <word>способ, метод</word>
+                    <word>образ действий</word>
+                </translations>
+                <examples>
+                    <example>adverb of manner — наречие образа действия</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="16">many</word>
+        <meanings>
+            <meaning
+                sound="many.wav"
+                transcription="'Ґў­Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>многие, многочисленные</word>
+                    <word>много</word>
+                </translations>
+                <examples>
+                    <example>how many? — сколько?</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="17">march</word>
+        <meanings>
+            <meaning
+                sound="march.wav"
+                transcription="ҐЃ ">
+                <statistics status="2"/>
+                <translations>
+                    <word>граница, кордон, пограничная зона (между странами, округами)</word>
+                </translations>
+                <examples>
+                    <example>the Welsh marches — окраинные земли Уэльса</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="18">mark</word>
+        <meanings>
+            <meaning
+                sound="mark.wav"
+                transcription="ҐЃ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>марка</word>
+                </translations>
+                <examples>
+                    <example>quotation mark — кавычка</example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="mark.wav"
+                transcription="ҐЃ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>оценка</word>
+                </translations>
+                <examples>
+                    <example>quotation mark — кавычка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="19">market</word>
+        <meanings>
+            <meaning
+                sound="market.wav"
+                transcription="'ҐЃ°Ў«">
+                <statistics status="2"/>
+                <translations>
+                    <word>базар, рынок</word>
+                </translations>
+                <examples>
+                    <example>to shop at the market — делать покупки на рынке</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="20">married</word>
+        <meanings>
+            <meaning
+                sound="married.wav"
+                transcription="'Ґ‡ЇЎ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>женатый</word>
+                    <word>замужняя</word>
+                </translations>
+                <examples>
+                    <example>married woman — замужняя женщина</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="21">marry</word>
+        <meanings>
+            <meaning
+                sound="marry.wav"
+                transcription="'Ґ‡ЇЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>жениться (на ком-л.)</word>
+                    <word>выходить замуж (за кого-л.)</word>
+                    <word>обручаться, бракосочетаться, вступать в брак (с кем-л.)</word>
+                </translations>
+                <examples>
+                    <example>since they've been married (to each other) — с тех пор, как они
+                        поженились
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="22">mass</word>
+        <meanings>
+            <meaning
+                sound="mass.wav"
+                transcription="Ґ‡©">
+                <statistics status="2"/>
+                <translations>
+                    <word>масса</word>
+                </translations>
+                <examples>
+                    <example>a mass of clay — глиняная масса</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="23">match</word>
+        <meanings>
+            <meaning
+                sound="match.wav"
+                transcription="Ґ‡ ">
+                <statistics status="2"/>
+                <translations>
+                    <word>спичка</word>
+                </translations>
+                <examples>
+                    <example>safety match — безопасная спичка</example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="match.wav"
+                transcription="Ґ‡ ">
+                <statistics status="2"/>
+                <translations>
+                    <word>пара (парень с девушкой)</word>
+                </translations>
+                <examples>
+                    <example>safety match — безопасная спичка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="24">material</word>
+        <meanings>
+            <meaning
+                sound="material.wav"
+                transcription="Ґ†'«Ў†ЇЎ†®">
+                <statistics status="2"/>
+                <translations>
+                    <word>вещество, материал</word>
+                    <word>сырьё</word>
+                </translations>
+                <examples>
+                    <example>sticky material — клейкое вещество</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="25">matter</word>
+        <meanings>
+            <meaning
+                sound="matter.wav"
+                transcription="'Ґ‡«†">
+                <statistics status="2"/>
+                <translations>
+                    <word>вещество</word>
+                </translations>
+                <examples>
+                    <example>primed matter — воспламеняющееся вещество</example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="matter.wav"
+                transcription="'Ґ‡«†">
+                <statistics status="2"/>
+                <translations>
+                    <word>вопрос, дело</word>
+                </translations>
+                <examples>
+                    <example>primed matter — воспламеняющееся вещество</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="26">maximum</word>
+        <meanings>
+            <meaning
+                sound="maximum.wav"
+                transcription="'Ґ‡°©ЎҐ†Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>максимум</word>
+                    <word>максимальное значение</word>
+                    <word>высшая степень</word>
+                </translations>
+                <examples>
+                    <example>maximum security — максимальная безопасность</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="27">may</word>
+        <meanings>
+            <meaning
+                sound="may.wav"
+                transcription="ҐўЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>выражает разрешение</word>
+                    <word>обычно в официальном стиле</word>
+                </translations>
+                <examples>
+                    <example>May I see the chief now? - Yes, you may. — Можно сейчас увидеть шефа? -
+                        Да.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="28">maybe</word>
+        <meanings>
+            <meaning
+                sound="maybe.wav"
+                transcription="'ҐўЎ¤Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>может быть</word>
+                </translations>
+                <examples>
+                    <example>And I don't mean maybe. — Можете не сомневаться.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="29">me</word>
+        <meanings>
+            <meaning
+                sound="me.wav"
+                transcription="ҐЂ">
+                <statistics status="2"/>
+                <translations>
+                    <word>косвенный падеж от I мне, меня, мной</word>
+                </translations>
+                <examples>
+                    <example>Can you hear me? — Ты меня слышишь?</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="30">meal</word>
+        <meanings>
+            <meaning
+                sound="meal.wav"
+                transcription="ҐЂ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>мука крупного помола</word>
+                </translations>
+                <examples>
+                    <example>big / heavy / decent / hearty / solid / square / sumptuous meal —
+                        обильная еда
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="31">mean</word>
+        <meanings>
+            <meaning
+                sound="mean.wav"
+                transcription="ҐЂ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>убогий, жалкий, захудалый, запущенный</word>
+                </translations>
+                <examples>
+                    <example>mean city streets — захудалые городские улицы</example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="mean.wav"
+                transcription="ҐЂ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>неприятный, противный</word>
+                </translations>
+                <examples>
+                    <example>mean city streets — захудалые городские улицы</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="32">meaning</word>
+        <meanings>
+            <meaning
+                sound="meaning.wav"
+                transcription="'ҐЂ­ЎЊ">
+                <statistics status="2"/>
+                <translations>
+                    <word>значение</word>
+                    <word>смысл</word>
+                </translations>
+                <examples>
+                    <example>accepted meaning — общепринятое понимание</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="33">means</word>
+        <meanings>
+            <meaning transcription="ҐЂ­Є">
+                <statistics status="2"/>
+                <translations>
+                    <word>средство</word>
+                    <word>способ, метод</word>
+                    <word>возможность</word>
+                </translations>
+                <examples>
+                    <example>effective means — эффективный способ</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="34">meanwhile</word>
+        <meanings>
+            <meaning transcription=",ҐЂ­'¦µЎ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>= in the ... тем временем, между тем, пока</word>
+                </translations>
+                <examples>
+                    <example>The flight will be announced soon. Meanwhile, please remain seated. —
+                        Посадка на рейс будет скоро объявлена, а пока что оставайтесь на своих
+                        местах.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="35">measure</word>
+        <meanings>
+            <meaning
+                sound="measure.wav"
+                transcription="'ҐўЉ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>мера</word>
+                    <word>единица измерения</word>
+                </translations>
+                <examples>
+                    <example>The measure is given in centimeters. — Единицей измерения является
+                        сантиметр.
+                    </example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="measure.wav"
+                transcription="'ҐўЉ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>мера, мероприятие</word>
+                </translations>
+                <examples>
+                    <example>The measure is given in centimeters. — Единицей измерения является
+                        сантиметр.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="36">medium</word>
+        <meanings>
+            <meaning
+                sound="medium.wav"
+                transcription="'ҐЂ¬Ў†Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>способ, средство</word>
+                </translations>
+                <examples>
+                    <example>I consider your journal one of the best possible mediums for such an
+                        article. — На мой взгляд, ваш журнал - одна из лучших возможностей
+                        опубликовать такую статью.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="37">meet</word>
+        <meanings>
+            <meaning
+                sound="meet.wav"
+                transcription="ҐЂ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>= meet up встречать</word>
+                </translations>
+                <examples>
+                    <example>I met with an old friend in the town today. — Я сегодня в городе
+                        встретил старого друга.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="38">meeting</word>
+        <meanings>
+            <meaning
+                sound="meeting.wav"
+                transcription="'ҐЂ«ЎЊ">
+                <statistics status="2"/>
+                <translations>
+                    <word>заседание, митинг, собрание</word>
+                </translations>
+                <examples>
+                    <example>to arrange / hold / organize a meeting — организовывать митинг,
+                        заседание
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="39">memory</word>
+        <meanings>
+            <meaning
+                sound="memory.wav"
+                transcription="'ҐўҐ(†)ЇЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>память</word>
+                </translations>
+                <examples>
+                    <example>powerful memory — хорошая память</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="40">mend</word>
+        <meanings>
+            <meaning
+                sound="mend.wav"
+                transcription="Ґў­¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>починка</word>
+                </translations>
+                <examples>
+                    <example>to be on the mend — идти на поправку, улучшаться</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="41">mention</word>
+        <meanings>
+            <meaning
+                sound="mention.wav"
+                transcription="'Ґў­Џ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>упоминание</word>
+                    <word>ссылка (на что-л. / кого-л.)</word>
+                </translations>
+                <examples>
+                    <example>honourable mention — похвальный отзыв; благодарность в приказе
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="42">mess</word>
+        <meanings>
+            <meaning
+                sound="mess.wav"
+                transcription="Ґў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>беспорядок</word>
+                    <word>путаница, неразбериха</word>
+                    <word>грязь</word>
+                </translations>
+                <examples>
+                    <example>to clean away / sweep up a mess — привести в порядок</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="43">message</word>
+        <meanings>
+            <meaning
+                sound="message.wav"
+                transcription="'Ґў©Ў‹">
+                <statistics status="2"/>
+                <translations>
+                    <word>сообщение, донесение</word>
+                    <word>извещение, письмо</word>
+                </translations>
+                <examples>
+                    <example>clear message — ясное сообщение</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="44">method</word>
+        <meanings>
+            <meaning
+                sound="method.wav"
+                transcription="'ҐўЋ†¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>метод, способ</word>
+                    <word>приём, средство</word>
+                </translations>
+                <examples>
+                    <example>to apply / employ / use a method — применять, использовать метод
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="45">middle</word>
+        <meanings>
+            <meaning
+                sound="middle.wav"
+                transcription="'ҐЎ¬®">
+                <statistics status="2"/>
+                <translations>
+                    <word>середина, центр</word>
+                </translations>
+                <examples>
+                    <example>He was standing in the middle of the room. — Он стоял посреди
+                        комнаты.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="46">might</word>
+        <meanings>
+            <meaning
+                sound="might.wav"
+                transcription="ҐµЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>энергия</word>
+                    <word>мощность, физическая сила</word>
+                </translations>
+                <examples>
+                    <example>with all might, with might and main — изо всех сил, со всей силой
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="47">mind</word>
+        <meanings>
+            <meaning
+                sound="mind.wav"
+                transcription="ҐµЎ­¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>разум</word>
+                    <word>умственные способности</word>
+                    <word>ум</word>
+                </translations>
+                <examples>
+                    <example>mind of great capacity — глубокий ум</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="48">mine</word>
+        <meanings>
+            <meaning
+                sound="mine.wav"
+                transcription="ҐµЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>мой</word>
+                    <word>моя</word>
+                    <word>моё</word>
+                    <word>принадлежащий мне</word>
+                </translations>
+                <examples>
+                    <example>Is this book yours or mine? — Это твоя книга или моя?</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="49">minimum</word>
+        <meanings>
+            <meaning
+                sound="minimum.wav"
+                transcription="'ҐЎ­ЎҐ†Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>минимум</word>
+                    <word>минимальное количество</word>
+                </translations>
+                <examples>
+                    <example>to reduce to a minimum — свести к минимуму</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="50">minor</word>
+        <meanings>
+            <meaning
+                sound="minor.wav"
+                transcription="'ҐµЎ­†">
+                <statistics status="2"/>
+                <translations>
+                    <word>незначительный, несущественный, второстепенный</word>
+                </translations>
+                <examples>
+                    <example>She is known in Italy for a number of minor roles in films. — В Италии
+                        её знают по нескольким сыгранным ею второстепенным ролям.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="51">minority</word>
+        <meanings>
+            <meaning
+                sound="minority.wav"
+                transcription="ҐµЎ'­€Ї†«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>меньшинство</word>
+                    <word>меньшее число</word>
+                    <word>меньшая часть</word>
+                </translations>
+                <examples>
+                    <example>minority opinion — мнение меньшинства</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="52">minute</word>
+        <meanings>
+            <meaning
+                sound="minute.wav"
+                transcription="'ҐЎ­Ў«">
+                <statistics status="2"/>
+                <translations>
+                    <word>min, m минута</word>
+                </translations>
+                <examples>
+                    <example>in a minute — скоро, прямо сейчас</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="53">miss</word>
+        <meanings>
+            <meaning
+                sound="miss.wav"
+                transcription="ҐЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>потеря, утрата</word>
+                    <word>недостаток, отсутствие</word>
+                </translations>
+                <examples>
+                    <example>We felt the miss of you. — Мы чувствовали, как нам тебя не хватает.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="54">mistake</word>
+        <meanings>
+            <meaning
+                sound="mistake.wav"
+                transcription="ҐЎ'©«ўЎ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>ошибка</word>
+                    <word>заблуждение, недоразумение</word>
+                </translations>
+                <examples>
+                    <example>bad / costly / glaring / serious mistake — грубая ошибка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="55">mix</word>
+        <meanings>
+            <meaning
+                sound="mix.wav"
+                transcription="ҐЎ°©">
+                <statistics status="2"/>
+                <translations>
+                    <word>перемешивание, смешивание</word>
+                </translations>
+                <examples>
+                    <example>cake mix — сухая смесь для кекса, пудинга</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="56">mixture</word>
+        <meanings>
+            <meaning
+                sound="mixture.wav"
+                transcription="'ҐЎ°© †">
+                <statistics status="2"/>
+                <translations>
+                    <word>перемешивание, смешивание</word>
+                </translations>
+                <examples>
+                    <example>Five minutes is sufficient for a thorough mixture. — Пяти минут
+                        достаточно для получения однородной массы.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="57">model</word>
+        <meanings>
+            <meaning
+                sound="model.wav"
+                transcription="'Ґ€¬(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>модель</word>
+                    <word>макет (уменьшенная копия чего-л.)</word>
+                </translations>
+                <examples>
+                    <example>ship model — модель корабля</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="58">modern</word>
+        <meanings>
+            <meaning
+                sound="modern.wav"
+                transcription="'Ґ€¬(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>современный</word>
+                    <word>новый</word>
+                </translations>
+                <examples>
+                    <example>development on modern lines — модернизация</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="59">moment</word>
+        <meanings>
+            <meaning
+                sound="moment.wav"
+                transcription="'Ґ†ЌҐ†­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>миг, минута, момент, мгновение</word>
+                </translations>
+                <examples>
+                    <example>for a moment — на одну минуту</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="60">money</word>
+        <meanings>
+            <meaning
+                sound="money.wav"
+                transcription="'Ґ…­Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>деньги</word>
+                </translations>
+                <examples>
+                    <example>for money — за деньги</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="61">month</word>
+        <meanings>
+            <meaning
+                sound="month.wav"
+                transcription="Ґ…­Ћ">
+                <statistics status="2"/>
+                <translations>
+                    <word>месяц</word>
+                </translations>
+                <examples>
+                    <example>last month — в прошлом месяце</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="62">mood</word>
+        <meanings>
+            <meaning
+                sound="mood.wav"
+                transcription="Ґѓ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>настроение</word>
+                    <word>расположение духа</word>
+                </translations>
+                <examples>
+                    <example>bad / foul mood — плохое настроение</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="63">moon</word>
+        <meanings>
+            <meaning
+                sound="moon.wav"
+                transcription="Ґѓ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>луна</word>
+                </translations>
+                <examples>
+                    <example>half moon — половина луны, полумесяц</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="64">moral</word>
+        <meanings>
+            <meaning
+                sound="moral.wav"
+                transcription="'Ґ€Ї(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>мораль, назидание, наставление, поучение</word>
+                </translations>
+                <examples>
+                    <example>moral of / to the fable — мораль басни</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="65">more</word>
+        <meanings>
+            <meaning
+                sound="more.wav"
+                transcription="Ґ‚">
+                <statistics status="2"/>
+                <translations>
+                    <word>от much 1. , many 1.</word>
+                </translations>
+                <examples>
+                    <example>She has more merits than her sister. — У неё больше достоинств, чем у
+                        её сестры.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="66">morning</word>
+        <meanings>
+            <meaning
+                sound="morning.wav"
+                transcription="'Ґ‚­ЎЊ">
+                <statistics status="2"/>
+                <translations>
+                    <word>утро</word>
+                    <word>первая половина дня</word>
+                </translations>
+                <examples>
+                    <example>early morning — раннее утро</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="67">most</word>
+        <meanings>
+            <meaning
+                sound="most.wav"
+                transcription="Ґ†Ќ©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>от much 1. , many 1. самый большой, наибольший (по количеству, размеру,
+                        степени)
+                    </word>
+                </translations>
+                <examples>
+                    <example>We needed much money and so we consulted an expert on how to get the
+                        most money from the sale of our house. — Нам была нужна большая сумма денег,
+                        и мы попросили у специалиста совета, как выгоднее всего продать наш дом.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="68">mother</word>
+        <meanings>
+            <meaning
+                sound="mother.wav"
+                transcription="'Ґ…‰†">
+                <statistics status="2"/>
+                <translations>
+                    <word>мать</word>
+                </translations>
+                <examples>
+                    <example>She was like a mother to them. — Она была им как мать.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="69">motion</word>
+        <meanings>
+            <meaning
+                sound="motion.wav"
+                transcription="'Ґ†ЌЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>движение</word>
+                </translations>
+                <examples>
+                    <example>to put in motion — запустить; привести в движение</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="70">mouth</word>
+        <meanings>
+            <meaning
+                sound="mouth.wav"
+                transcription="ҐµЌЋ">
+                <statistics status="2"/>
+                <translations>
+                    <word>рот, уста</word>
+                </translations>
+                <examples>
+                    <example>to close / shut one's mouth — закрыть рот</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="71">move</word>
+        <meanings>
+            <meaning
+                sound="move.wav"
+                transcription="Ґѓђ">
+                <statistics status="2"/>
+                <translations>
+                    <word>двигать, передвигать, перемещать</word>
+                    <word>изменять положение (чего-л.)</word>
+                </translations>
+                <examples>
+                    <example>She moved the tray, and put the table back in its place. — Она
+                        отодвинула поднос и вернула столик на место.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="72">movement</word>
+        <meanings>
+            <meaning
+                sound="movement.wav"
+                transcription="'ҐѓђҐ†­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>движение (вообще или какой-л. вид)</word>
+                    <word>передвижение, перемещение</word>
+                </translations>
+                <examples>
+                    <example>downward movement — движение вниз</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="73">much</word>
+        <meanings>
+            <meaning
+                sound="much.wav"
+                transcription="Ґ… ">
+                <statistics status="2"/>
+                <translations>
+                    <word>обильный, богатый</word>
+                    <word>присутствующий в большом количестве или объёме</word>
+                </translations>
+                <examples>
+                    <example>much water— много воды; обильная вода</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="74">murder</word>
+        <meanings>
+            <meaning
+                sound="murder.wav"
+                transcription="'Ґ„¬†">
+                <statistics status="2"/>
+                <translations>
+                    <word>убийство</word>
+                </translations>
+                <examples>
+                    <example>brutal / grisly / heinous / vicious / wanton murder — жестокое /
+                        ужасное / гнусное / зверское / бессмысленное убийство
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="75">muscle</word>
+        <meanings>
+            <meaning
+                sound="muscle.wav"
+                transcription="'Ґ…©®">
+                <statistics status="2"/>
+                <translations>
+                    <word>мускул, мышца</word>
+                </translations>
+                <examples>
+                    <example>pain in muscles — боль в мышцах</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="76">music</word>
+        <meanings>
+            <meaning
+                sound="music.wav"
+                transcription="'ҐіѓЄЎ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>музыка</word>
+                </translations>
+                <examples>
+                    <example>a piece of music — музыкальная пьеса</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="77">must</word>
+        <meanings>
+            <meaning
+                sound="must.wav"
+                transcription="Ґ…©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>должен, обязан (при обязанности, приказании, обязательности чего-л.)
+                    </word>
+                </translations>
+                <examples>
+                    <example>You must do as I tell you. — Ты должен делать так, как я тебе говорю.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="78">my</word>
+        <meanings>
+            <meaning
+                sound="my.wav"
+                transcription="ҐµЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>мой, моя, мое, мои</word>
+                    <word>принадлежащий мне, свой</word>
+                </translations>
+                <examples>
+                    <example>my chair — мой стул</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="79">myself</word>
+        <meanings>
+            <meaning
+                sound="myself.wav"
+                transcription="ҐµЎ'©ў®§">
+                <statistics status="2"/>
+                <translations>
+                    <word>себя, меня самого</word>
+                    <word>-ся</word>
+                    <word>себе</word>
+                </translations>
+                <examples>
+                    <example>I have hurt myself. — Я ушибся.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="80">mysterious</word>
+        <meanings>
+            <meaning
+                sound="mysterious.wav"
+                transcription="ҐЎ'©«Ў†ЇЎ†©">
+                <statistics status="2"/>
+                <translations>
+                    <word>таинственный</word>
+                    <word>загадочный, непостижимый</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="81">mystery</word>
+        <meanings>
+            <meaning
+                sound="mystery.wav"
+                transcription="'ҐЎ©«(†)ЇЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>тайна, загадка, головоломка</word>
+                </translations>
+                <examples>
+                    <example>unsolved mystery — неразгаданная тайна</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="82">name</word>
+        <meanings>
+            <meaning
+                sound="name.wav"
+                transcription="­ўЎҐ">
+                <statistics status="2"/>
+                <translations>
+                    <word>имя</word>
+                    <word>фамилия</word>
+                </translations>
+                <examples>
+                    <example>fancy name — выдуманное имя</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="83">narrow</word>
+        <meanings>
+            <meaning
+                sound="narrow.wav"
+                transcription="'­‡Ї†Ќ">
+                <statistics status="2"/>
+                <translations>
+                    <word>узкий</word>
+                </translations>
+                <examples>
+                    <example>narrow streets — узкие улицы</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="84">national</word>
+        <meanings>
+            <meaning
+                sound="national.wav"
+                transcription="'­‡Џ(†)­(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>народный, национальный, относящийся к какой-л. нации</word>
+                </translations>
+                <examples>
+                    <example>national feelings — национальные чувства</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="85">natural</word>
+        <meanings>
+            <meaning
+                sound="natural.wav"
+                transcription="'­‡ (†)Ї(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>естественный, природный</word>
+                </translations>
+                <examples>
+                    <example>with the bravery natural to him — с присущей ему храбростью</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="86">naturally</word>
+        <meanings>
+            <meaning
+                sound="naturally.wav"
+                transcription="'­‡ (†)Ї(†)®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>конечно, как и следовало ожидать, естественно</word>
+                </translations>
+                <examples>
+                    <example>We are naturally concerned about the future. — Мы, естественно,
+                        озабочены будущим.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="87">nature</word>
+        <meanings>
+            <meaning
+                sound="nature.wav"
+                transcription="'­ўЎ †">
+                <statistics status="2"/>
+                <translations>
+                    <word>природа</word>
+                </translations>
+                <examples>
+                    <example>The most amazing things about nature is its infinite variety. —
+                        Наиболее поразительное в природе - её бесконечное разнообразие.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="88">near</word>
+        <meanings>
+            <meaning
+                sound="near.wav"
+                transcription="­Ў†">
+                <statistics status="2"/>
+                <translations>
+                    <word>ближний, близлежащий, близко расположенный</word>
+                </translations>
+                <examples>
+                    <example>the near fields — близлежащие поля</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="89">nearly</word>
+        <meanings>
+            <meaning
+                sound="nearly.wav"
+                transcription="'­Ў†®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>близко</word>
+                </translations>
+                <examples>
+                    <example>A piece of news which nearly concerned the interests of our village. —
+                        Новость, особенно затрагивающая интересы нашей деревни.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="90">neat</word>
+        <meanings>
+            <meaning
+                sound="neat.wav"
+                transcription="­Ђ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>чёткий, ясный, точный</word>
+                </translations>
+                <examples>
+                    <example>His wife seems to have been quite as neat an article as his sister. —
+                        Судя по всему, его жена была той ещё штучкой, как и его сестра.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="91">necessary</word>
+        <meanings>
+            <meaning
+                sound="necessary.wav"
+                transcription="'­ў©†©(†)ЇЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>необходимый, нужный, требуемый</word>
+                </translations>
+                <examples>
+                    <example>We will do whatever is necessary to stop them. — Мы сделаем все
+                        необходимое, чтобы остановить их.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="92">neck</word>
+        <meanings>
+            <meaning
+                sound="neck.wav"
+                transcription="­ў°">
+                <statistics status="2"/>
+                <translations>
+                    <word>шея</word>
+                </translations>
+                <examples>
+                    <example>to break the neck — свернуть шею</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="93">need</word>
+        <meanings>
+            <meaning
+                sound="need.wav"
+                transcription="­Ђ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>необходимость, надобность, нужда</word>
+                </translations>
+                <examples>
+                    <example>physical need — физическая потребность</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="94">needle</word>
+        <meanings>
+            <meaning
+                sound="needle.wav"
+                transcription="'­Ђ¬®">
+                <statistics status="2"/>
+                <translations>
+                    <word>игла, иголка</word>
+                </translations>
+                <examples>
+                    <example>to ply one's needle — заниматься шитьем, шить</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="95">negative</word>
+        <meanings>
+            <meaning
+                sound="negative.wav"
+                transcription="'­ў±†«Ўђ">
+                <statistics status="2"/>
+                <translations>
+                    <word>отрицательный, негативный</word>
+                </translations>
+                <examples>
+                    <example>negative approach to life — пессимистический взгляд на жизнь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="96">neither</word>
+        <meanings>
+            <meaning
+                sound="neither.wav"
+                transcription="'­µЎ‰†">
+                <statistics status="2"/>
+                <translations>
+                    <word>никакой (из двух представленных)</word>
+                </translations>
+                <examples>
+                    <example>Neither opinion is true. — Ни та ни другая точка зрения не является
+                        верной.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="97">nerve</word>
+        <meanings>
+            <meaning
+                sound="nerve.wav"
+                transcription="­„ђ">
+                <statistics status="2"/>
+                <translations>
+                    <word>нерв</word>
+                </translations>
+                <examples>
+                    <example>to suffer from nerves — страдать расстройством нервной системы
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="98">nervous</word>
+        <meanings>
+            <meaning
+                sound="nervous.wav"
+                transcription="'­„ђ†©">
+                <statistics status="2"/>
+                <translations>
+                    <word>нервный, относящийся к нервам, к нервной системе</word>
+                </translations>
+                <examples>
+                    <example>nervous system — нервная система</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="99">never</word>
+        <meanings>
+            <meaning
+                sound="never.wav"
+                transcription="'­ўђ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>никогда</word>
+                </translations>
+                <examples>
+                    <example>the fact was never before observed — факт не был замечен когда либо
+                        ранее
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="100">new</word>
+        <meanings>
+            <meaning
+                sound="new.wav"
+                transcription="­іѓ">
+                <statistics status="2"/>
+                <translations>
+                    <word>новый, ранее не существовавший</word>
+                </translations>
+                <examples>
+                    <example>new car — новая машина</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="101">news</word>
+        <meanings>
+            <meaning
+                sound="news.wav"
+                transcription="­іѓЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>известие, новость, сообщение</word>
+                </translations>
+                <examples>
+                    <example>good news — хорошие вести</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="102">next</word>
+        <meanings>
+            <meaning
+                sound="next.wav"
+                transcription="­ў°©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>следующий</word>
+                </translations>
+                <examples>
+                    <example>in the next part — в следующей части</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="103">nice</word>
+        <meanings>
+            <meaning
+                sound="Nice.wav"
+                transcription="­µЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>хороший, приятный, милый, славный</word>
+                </translations>
+                <examples>
+                    <example>nice time — славное время</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="104">night</word>
+        <meanings>
+            <meaning
+                sound="night.wav"
+                transcription="­µЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>ночь</word>
+                    <word>вечер</word>
+                </translations>
+                <examples>
+                    <example>dark / murky night — тёмная ночь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="105">no</word>
+        <meanings>
+            <meaning
+                sound="no.wav"
+                transcription="­†Ќ">
+                <statistics status="2"/>
+                <translations>
+                    <word>не, нисколько не</word>
+                </translations>
+                <examples>
+                    <example>He is no better and no worse than ever - just older. — Он выглядит не
+                        лучше и не хуже, чем когда-либо, а просто старше.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="106">noise</word>
+        <meanings>
+            <meaning
+                sound="noise.wav"
+                transcription="­€ЎЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>шум, гам, грохот</word>
+                    <word>гвалт, гудение, гул</word>
+                    <word>неприятный звук</word>
+                </translations>
+                <examples>
+                    <example>to make / produce (a) noise — шуметь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="107">noisy</word>
+        <meanings>
+            <meaning
+                sound="noisy.wav"
+                transcription="'­€ЎЄЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>шумный, неспокойный</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="108">none</word>
+        <meanings>
+            <meaning
+                sound="none.wav"
+                transcription="­…­">
+                <statistics status="2"/>
+                <translations>
+                    <word>ни один из (общего числа)</word>
+                </translations>
+                <examples>
+                    <example>I refuse to believe none of you laughed at this the first time you saw
+                        it. — Я не верю, что никто из вас не смеялся, когда в первый раз это увидел.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="109">nonsense</word>
+        <meanings>
+            <meaning
+                sound="nonsense.wav"
+                transcription="'­€­©(†)­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>абсурд, бессмыслица, вздор, ерунда, чепуха</word>
+                    <word>абракадабра</word>
+                </translations>
+                <examples>
+                    <example>arrant / complete / outright / perfect / pure / sheer / total / utter
+                        nonsense — совершенная, полная, абсолютная чепуха
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="110">no one</word>
+        <meanings>
+            <meaning
+                sound="no one.wav"
+                transcription="'­†Ќ¦…­">
+                <statistics status="2"/>
+                <translations>
+                    <word>никто</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="111">nor</word>
+        <meanings>
+            <meaning
+                sound="nor.wav"
+                transcription="­‚">
+                <statistics status="2"/>
+                <translations>
+                    <word>также не, тоже не</word>
+                    <word>ни …, ни …</word>
+                    <word>не…, не...</word>
+                </translations>
+                <examples>
+                    <example>He can't do it, nor can I — Он не может этого сделать, и я тоже не
+                        могу.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="112">normal</word>
+        <meanings>
+            <meaning
+                sound="normal.wav"
+                transcription="'­‚Ґ(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>нормальный, обыкновенный</word>
+                    <word>обычный, стандартный</word>
+                </translations>
+                <examples>
+                    <example>normal immunity — естественный иммунитет</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="113">nose</word>
+        <meanings>
+            <meaning
+                sound="nose.wav"
+                transcription="­†ЌЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>нос</word>
+                </translations>
+                <examples>
+                    <example>to pick one's nose — ковырять в носу</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="115">note</word>
+        <meanings>
+            <meaning
+                sound="note.wav"
+                transcription="­†Ќ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>заметка, запись</word>
+                    <word>памятная записка</word>
+                </translations>
+                <examples>
+                    <example>to make / take a note, make / take notes — делать заметки, записывать
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="116">nothing</word>
+        <meanings>
+            <meaning
+                sound="nothing.wav"
+                transcription="'­…ЋЎЊ">
+                <statistics status="2"/>
+                <translations>
+                    <word>ничего, ничто</word>
+                </translations>
+                <examples>
+                    <example>It's nothing to what I saw in Paris. — Это ничто по сравнению с тем,
+                        что я видел в Париже.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="117">notice</word>
+        <meanings>
+            <meaning
+                sound="notice.wav"
+                transcription="'­†Ќ«Ў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>извещение, сообщение, уведомление</word>
+                    <word>предупреждение</word>
+                </translations>
+                <examples>
+                    <example>Did you receive any notice about the sale? — Ты получил какое-нибудь
+                        уведомление о торгах?
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="118">now</word>
+        <meanings>
+            <meaning
+                sound="now.wav"
+                transcription="­µЌ">
+                <statistics status="2"/>
+                <translations>
+                    <word>сейчас, теперь, в настоящий момент</word>
+                </translations>
+                <examples>
+                    <example>I need not stay, now you are here. — Мне нечего оставаться, раз вы
+                        здесь.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="119">nowhere</word>
+        <meanings>
+            <meaning
+                sound="nowhere.wav"
+                transcription="'­†Ќ¦ґ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>нигде</word>
+                    <word>никуда</word>
+                </translations>
+                <examples>
+                    <example>He was nowhere to be seen. — Его нигде не было видно.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="120">number</word>
+        <meanings>
+            <meaning
+                sound="number.wav"
+                transcription="'­…Ґ¤†">
+                <statistics status="2"/>
+                <translations>
+                    <word>число</word>
+                    <word>сумма, цифра</word>
+                </translations>
+                <examples>
+                    <example>high number — большое число</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="121">nurse</word>
+        <meanings>
+            <meaning
+                sound="nurse.wav"
+                transcription="­„©">
+                <statistics status="2"/>
+                <translations>
+                    <word>сиделка, медицинская сестра</word>
+                </translations>
+                <examples>
+                    <example>nurses — средний медицинский персонал</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="122">object</word>
+        <meanings>
+            <meaning
+                sound="object.wav"
+                transcription="'€¤‹Ў°«, '€¤‹ў°«">
+                <statistics status="2"/>
+                <translations>
+                    <word>предмет</word>
+                    <word>вещь</word>
+                </translations>
+                <examples>
+                    <example>material / physical object — материальный, физический предмет</example>
+                </examples>
+            </meaning>
+            <meaning sound="object.wav">
+                <statistics status="2"/>
+                <translations>
+                    <word>возражать (глагол)</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="131">objection</word>
+        <meanings>
+            <meaning
+                sound="objection.wav"
+                transcription="†¤'‹ў°Џ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>возражение, протест</word>
+                </translations>
+                <examples>
+                    <example>serious / strenuous / strong objection — серьёзное, сильное
+                        возражение
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="132">obtain</word>
+        <meanings>
+            <meaning
+                sound="obtain.wav"
+                transcription="†¤'«ўЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>получать</word>
+                    <word>добывать</word>
+                    <word>приобретать</word>
+                </translations>
+                <examples>
+                    <example>to obtain a reward — получить награду</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="133">obvious</word>
+        <meanings>
+            <meaning
+                sound="obvious.wav"
+                transcription="'€¤ђЎ†©">
+                <statistics status="2"/>
+                <translations>
+                    <word>очевидный, заметный</word>
+                </translations>
+                <examples>
+                    <example>Her disappointment was obvious to everyone. — Её недовольство было
+                        заметно всем.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="134">occasion</word>
+        <meanings>
+            <meaning
+                sound="occasion.wav"
+                transcription="†'°ўЎЉ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>возможность, случай, шанс</word>
+                </translations>
+                <examples>
+                    <example>on numerous occasions — часто; неоднократно</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="135">occasional</word>
+        <meanings>
+            <meaning
+                sound="occasional.wav"
+                transcription="†'°ўЎЉ(†)­(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>случающийся время от времени, иногда, редко</word>
+                    <word>редкий, случайный</word>
+                </translations>
+                <examples>
+                    <example>occasional smoker — изредка курящий человек</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="136">occur</word>
+        <meanings>
+            <meaning
+                sound="occur.wav"
+                transcription="†'°„">
+                <statistics status="2"/>
+                <translations>
+                    <word>происходить, случаться, совершаться</word>
+                </translations>
+                <examples>
+                    <example>to occur again — повторяться, случаться снова</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="137">ocean</word>
+        <meanings>
+            <meaning
+                sound="ocean.wav"
+                transcription="'†ЌЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>(the ocean) (мировой) океан</word>
+                </translations>
+                <examples>
+                    <example>across the ocean — через океан</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="138">odd</word>
+        <meanings>
+            <meaning
+                sound="odd.wav"
+                transcription="€¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>нечётный</word>
+                </translations>
+                <examples>
+                    <example>odd numbers — нечётные числа</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="140">off</word>
+        <meanings>
+            <meaning
+                sound="off.wav"
+                transcription="€§">
+                <statistics status="2"/>
+                <translations>
+                    <word>указывает на отдаление, удаление от чего-л.</word>
+                </translations>
+                <examples>
+                    <example>to march off — зашагать (прочь)</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="141">offence</word>
+        <meanings>
+            <meaning
+                sound="offence.wav"
+                transcription="†'§ў­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>(offence against) проступок, нарушение чего-л.</word>
+                </translations>
+                <examples>
+                    <example>minor / petty / trivial offence — мелкое, незначительное
+                        правонарушение, проступок
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="142">offend</word>
+        <meanings>
+            <meaning
+                sound="offend.wav"
+                transcription="†'§ў­¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>(offend against) действовать против чего-л</word>
+                    <word>нарушить что-л.</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="143">offer</word>
+        <meanings>
+            <meaning
+                sound="offer.wav"
+                transcription="'€§†">
+                <statistics status="2"/>
+                <translations>
+                    <word>предложение</word>
+                </translations>
+                <examples>
+                    <example>to offer help — предложить помощь</example>
+                </examples>
+            </meaning>
+            <meaning
+                sound="offer.wav"
+                transcription="'€§†">
+                <statistics status="2"/>
+                <translations>
+                    <word>предлагать</word>
+                </translations>
+                <examples>
+                    <example>to offer help — предложить помощь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="144">office</word>
+        <meanings>
+            <meaning
+                sound="office.wav"
+                transcription="'€§Ў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>пост, должность, служба</word>
+                </translations>
+                <examples>
+                    <example>high office — высокий пост</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="145">official</word>
+        <meanings>
+            <meaning
+                sound="official.wav"
+                transcription="†'§ЎЏ(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>служебный</word>
+                    <word>связанный с исполнением служебных обязанностей</word>
+                    <word>должностной</word>
+                </translations>
+                <examples>
+                    <example>official duties — служебные обязанности</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="146">often</word>
+        <meanings>
+            <meaning
+                sound="often.wav"
+                transcription="'€§(†)­, '€§«(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>часто, много раз</word>
+                </translations>
+                <examples>
+                    <example>often and often — весьма часто</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="147">oil</word>
+        <meanings>
+            <meaning
+                sound="oil.wav"
+                transcription="€Ў®">
+                <statistics status="2"/>
+                <translations>
+                    <word>масло (обычно растительное или минеральное)</word>
+                </translations>
+                <examples>
+                    <example>vegetable / corn / cottonseed / peanut / sunflower oil — растительное,
+                        кукурузное, хлопковое, арахисовое, подсолнечное масло
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="148">on</word>
+        <meanings>
+            <meaning
+                sound="on.wav"
+                transcription="€­">
+                <statistics status="2"/>
+                <translations>
+                    <word>на (в пространственном значении указывает на нахождение на поверхности
+                        какого-л. предмета)
+                    </word>
+                </translations>
+                <examples>
+                    <example>house on the hill — дом на холме</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="149">once</word>
+        <meanings>
+            <meaning
+                sound="once.wav"
+                transcription="¦…­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>один раз</word>
+                    <word>раз, разок</word>
+                    <word>единожды, однажды</word>
+                </translations>
+                <examples>
+                    <example>once a day / month / year — раз в день / месяц / год</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="150">one</word>
+        <meanings>
+            <meaning
+                sound="one.wav"
+                transcription="¦…­">
+                <statistics status="2"/>
+                <translations>
+                    <word>один (число)</word>
+                </translations>
+                <examples>
+                    <example>one book — одна книга</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="151">only</word>
+        <meanings>
+            <meaning
+                sound="only.wav"
+                transcription="'†Ќ­®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>только, просто</word>
+                </translations>
+                <examples>
+                    <example>if only — если бы только</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="152">onto</word>
+        <meanings>
+            <meaning transcription="'€­«ѓ">
+                <statistics status="2"/>
+                <translations>
+                    <word>на</word>
+                    <word>в (в пространственном значении)</word>
+                </translations>
+                <examples>
+                    <example>to get onto a horse — сесть на лошадь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="153">open</word>
+        <meanings>
+            <meaning
+                sound="open.wav"
+                transcription="'†ЌЈ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>открытый, раскрытый</word>
+                </translations>
+                <examples>
+                    <example>open door — открытая дверь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="154">operate</word>
+        <meanings>
+            <meaning
+                sound="operate.wav"
+                transcription="'€Ј(†)ЇўЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>работать, действовать, функционировать (о приборах, механизмах)</word>
+                </translations>
+                <examples>
+                    <example>He knew how to operate on the opposite party. — Он знал, как повлиять
+                        на оппозицию.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="155">operation</word>
+        <meanings>
+            <meaning
+                sound="operation.wav"
+                transcription=",€Ј(†)'ЇўЎЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>деятельность, работа</word>
+                </translations>
+                <examples>
+                    <example>to conduct an operation — проводить операцию</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="156">opinion</word>
+        <meanings>
+            <meaning
+                sound="opinion.wav"
+                transcription="†'ЈЎ­і†­">
+                <statistics status="2"/>
+                <translations>
+                    <word>взгляд, мнение, убеждение</word>
+                </translations>
+                <examples>
+                    <example>conflicting opinions — противоречивые мнения</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="157">opponent</word>
+        <meanings>
+            <meaning
+                sound="opponent.wav"
+                transcription="†'Ј†Ќ­†­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>конкурент, соперник</word>
+                </translations>
+                <examples>
+                    <example>formidable / strong opponent in tomorrow's match — грозный соперник в
+                        завтрашнем матче
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="158">opportunity</word>
+        <meanings>
+            <meaning
+                sound="opportunity.wav"
+                transcription=",€Ј†'«іѓ­†«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>удобный случай, стечение обстоятельств, благоприятная возможность</word>
+                </translations>
+                <examples>
+                    <example>at the earliest / first opportunity — при первом же удобном случае
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="159">opposite</word>
+        <meanings>
+            <meaning
+                sound="opposite.wav"
+                transcription="'€Ј†ЄЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>расположенный, находящийся напротив, противоположный</word>
+                </translations>
+                <examples>
+                    <example>on the opposite side of the river — на противоположном берегу реки
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="160">or</word>
+        <meanings>
+            <meaning
+                sound="or.wav"
+                transcription="‚">
+                <statistics status="2"/>
+                <translations>
+                    <word>или, иначе</word>
+                </translations>
+                <examples>
+                    <example>Make haste or else you will be late. — Торопитесь, иначе вы
+                        опоздаете.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="161">order</word>
+        <meanings>
+            <meaning
+                sound="order.wav"
+                transcription="'‚¬†">
+                <statistics status="2"/>
+                <translations>
+                    <word>порядок, расположение в определённом порядке</word>
+                    <word>последовательность, очерёдность</word>
+                </translations>
+                <examples>
+                    <example>in alphabetical order — в алфавитном порядке</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="162">ordinary</word>
+        <meanings>
+            <meaning
+                sound="ordinary.wav"
+                transcription="'‚¬(†)­(†)ЇЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>обычный, обыкновенный</word>
+                    <word>ординарный</word>
+                    <word>простой</word>
+                </translations>
+                <examples>
+                    <example>in an ordinary way — обычным образом</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="163">organization</word>
+        <meanings>
+            <meaning
+                sound="organization.wav"
+                transcription=",‚±(†)­µЎ'ЄўЎЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>организация, устройство, формирование</word>
+                </translations>
+                <examples>
+                    <example>plants of low organization — низкоорганизованные растения</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="164">organize</word>
+        <meanings>
+            <meaning
+                sound="organize.wav"
+                transcription="'‚±(†)­µЎЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>организовывать, планировать</word>
+                    <word>устраивать</word>
+                </translations>
+                <examples>
+                    <example>to organize a concert — устроить концерт</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="165">original</word>
+        <meanings>
+            <meaning
+                sound="original.wav"
+                transcription="†'ЇЎ‹(†)­(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>начальный, первоначальный, исходный</word>
+                </translations>
+                <examples>
+                    <example>the original part of the house — самая старая часть дома</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="166">other</word>
+        <meanings>
+            <meaning
+                sound="other.wav"
+                transcription="'…‰†">
+                <statistics status="2"/>
+                <translations>
+                    <word>другой, иной</word>
+                </translations>
+                <examples>
+                    <example>some other time — как-нибудь в другой раз</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="167">otherwise</word>
+        <meanings>
+            <meaning
+                sound="otherwise.wav"
+                transcription="'…‰†¦µЎЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>иначе, иным способом</word>
+                    <word>иным образом</word>
+                    <word>по-другому</word>
+                </translations>
+                <examples>
+                    <example>God saw otherwise. — Бог видел по-другому.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="168">ought</word>
+        <meanings>
+            <meaning
+                sound="ought.wav"
+                transcription="‚«">
+                <statistics status="2"/>
+                <translations>
+                    <word>выражает долженствование</word>
+                </translations>
+                <examples>
+                    <example>I ought to pay our debts. — Я должен заплатить наши долги.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="169">our</word>
+        <meanings>
+            <meaning
+                sound="our.wav"
+                transcription="'µЌ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>наш, принадлежащий нам, свой</word>
+                </translations>
+                <examples>
+                    <example>our house — наш дом</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="170">ours</word>
+        <meanings>
+            <meaning transcription="'µЌ†Є">
+                <statistics status="2"/>
+                <translations>
+                    <word>наш, принадлежащий нам</word>
+                </translations>
+                <examples>
+                    <example>This house is ours. — Этот дом наш.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="171">ourselves</word>
+        <meanings>
+            <meaning
+                sound="ourselves.wav"
+                transcription=",µЌ†'©ў®ђЄ, ,Ѓ'©ў®ђЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>себе, себя, собой</word>
+                </translations>
+                <examples>
+                    <example>We're doing it solely for ourselves. — Мы делаем это исключительно для
+                        себя.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="172">out</word>
+        <meanings>
+            <meaning
+                sound="out.wav"
+                transcription="µЌ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>вне, снаружи, за пределами (чего-л.</word>
+                    <word>указывает на нахождение)</word>
+                </translations>
+                <examples>
+                    <example>It's hot out - very hot, very humid. — На улице жарко, даже очень жарко
+                        и влажно.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="173">outside</word>
+        <meanings>
+            <meaning
+                sound="outside.wav"
+                transcription=",µЌ«'©µЎ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>внешняя, наружная часть</word>
+                </translations>
+                <examples>
+                    <example>The outside of the house needs painting. — Снаружи дом нуждается в
+                        покраске.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="174">over</word>
+        <meanings>
+            <meaning
+                sound="over.wav"
+                transcription="'†Ќђ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>над, выше (указывает на движение или нахождение над каким-л. предметом)
+                    </word>
+                </translations>
+                <examples>
+                    <example>flight over the sea — полёт над морем</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="175">owe</word>
+        <meanings>
+            <meaning
+                sound="owe.wav"
+                transcription="†Ќ">
+                <statistics status="2"/>
+                <translations>
+                    <word>быть должным (кому-л.)</word>
+                    <word>быть в долгу (перед кем-л.)</word>
+                </translations>
+                <examples>
+                    <example>He owes me $5. — Он должен мне пять долларов.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="176">own</word>
+        <meanings>
+            <meaning
+                sound="own.wav"
+                transcription="†Ќ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>свой, собственный</word>
+                </translations>
+                <examples>
+                    <example>She has her own problems to deal with. — У неё полно своих проблем.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="177">pain</word>
+        <meanings>
+            <meaning
+                sound="pain.wav"
+                transcription="ЈўЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>боль</word>
+                </translations>
+                <examples>
+                    <example>spasm of pain — приступ боли</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="178">pair</word>
+        <meanings>
+            <meaning
+                sound="pair.wav"
+                transcription="Јґ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>пара (одинаковых предметов</word>
+                    <word>предназначены для совместного использования)</word>
+                </translations>
+                <examples>
+                    <example>a pair of socks — пара носков</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="179">paper</word>
+        <meanings>
+            <meaning
+                sound="paper.wav"
+                transcription="'ЈўЎЈ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>бумага</word>
+                    <word>лист бумаги, клочок бумаги</word>
+                </translations>
+                <examples>
+                    <example>blank paper — чистая, неисписанная бумага</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="180">part</word>
+        <meanings>
+            <meaning
+                sound="part.wav"
+                transcription="ЈЃ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>доля, часть, компонент</word>
+                </translations>
+                <examples>
+                    <example>large / major part — большая, основная часть</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="181">partner</word>
+        <meanings>
+            <meaning
+                sound="partner.wav"
+                transcription="'ЈЃ«­†">
+                <statistics status="2"/>
+                <translations>
+                    <word>компаньон</word>
+                    <word>партнёр</word>
+                    <word>пайщик</word>
+                </translations>
+                <examples>
+                    <example>Him and me, we partnered once. — Однажды мы с ним имели дело.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="182">party</word>
+        <meanings>
+            <meaning
+                sound="party.wav"
+                transcription="'ЈЃ«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>сторона в сражении, споре, противоборстве, противостоянии</word>
+                </translations>
+                <examples>
+                    <example>party to the contract — сторона по договору</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="183">pass</word>
+        <meanings>
+            <meaning
+                sound="pass.wav"
+                transcription="ЈЃ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>проход, путь, дорога</word>
+                </translations>
+                <examples>
+                    <example>Primary function of the subsystem is to correct the flight trajectory
+                        to assure a close pass by Mars. — Основная функция подсистемы - это
+                        корректировать траекторию полёта, чтобы обеспечить прохождение в
+                        максимальной близости от Марса.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="184">passage</word>
+        <meanings>
+            <meaning
+                sound="passage.wav"
+                transcription="'Ј‡©Ў‹">
+                <statistics status="2"/>
+                <translations>
+                    <word>прохождение, переход, проезд, проход</word>
+                    <word>переезд</word>
+                </translations>
+                <examples>
+                    <example>passage days — дни, проведенные в море</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="185">passenger</word>
+        <meanings>
+            <meaning
+                sound="passenger.wav"
+                transcription="'Ј‡©(†)­‹†">
+                <statistics status="2"/>
+                <translations>
+                    <word>пассажир</word>
+                    <word>седок</word>
+                </translations>
+                <examples>
+                    <example>passengers for — пассажиры на (какой-л. рейс)</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="186">past</word>
+        <meanings>
+            <meaning
+                sound="past.wav"
+                transcription="ЈЃ©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>прошлое</word>
+                    <word>прошедшее</word>
+                </translations>
+                <examples>
+                    <example>a man with a past — человек с (дурным) прошлым</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="187">path</word>
+        <meanings>
+            <meaning
+                sound="path.wav"
+                transcription="ЈЃЋ">
+                <statistics status="2"/>
+                <translations>
+                    <word>тропинка</word>
+                    <word>тропа</word>
+                    <word>дорожка</word>
+                </translations>
+                <examples>
+                    <example>to beat / blaze / clear / make a path — протаптывать, отмечать,
+                        расчищать, прокладывать дорогу
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="188">patience</word>
+        <meanings>
+            <meaning
+                sound="patience.wav"
+                transcription="'ЈўЎЏ(†)­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>терпеливость, терпение</word>
+                </translations>
+                <examples>
+                    <example>to display / show patience — проявлять терпение</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="189">patient</word>
+        <meanings>
+            <meaning
+                sound="patient.wav"
+                transcription="'ЈўЎЏ(†)­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>терпеливый</word>
+                    <word>снисходительный (по отношению к кому-л.)</word>
+                </translations>
+                <examples>
+                    <example>She was patient to her aunt's infirmities. — Она была снисходительна к
+                        слабостям своей тётушки.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="190">pattern</word>
+        <meanings>
+            <meaning
+                sound="pattern.wav"
+                transcription="'Ј‡«(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>образец, модель</word>
+                </translations>
+                <examples>
+                    <example>to establish / set a pattern — подавать пример</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="191">pause</word>
+        <meanings>
+            <meaning
+                sound="pause.wav"
+                transcription="Ј‚Є">
+                <statistics status="2"/>
+                <translations>
+                    <word>пауза, перерыв</word>
+                    <word>остановка</word>
+                    <word>интервал, промежуток</word>
+                </translations>
+                <examples>
+                    <example>There was a long pause before the preacher spoke again. — Наступила
+                        долгая пауза, прежде чем священник заговорил вновь.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="192">pay</word>
+        <meanings>
+            <meaning
+                sound="pay.wav"
+                transcription="ЈўЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>платить</word>
+                </translations>
+                <examples>
+                    <example>to pay smb. for smth. — платить кому-л. за что-л.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="193">payment</word>
+        <meanings>
+            <meaning
+                sound="payment.wav"
+                transcription="'ЈўЎҐ†­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>уплата, платеж, плата</word>
+                    <word>взнос, оплата</word>
+                </translations>
+                <examples>
+                    <example>to effect / make payment — производить платеж</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="194">peace</word>
+        <meanings>
+            <meaning
+                sound="peace.wav"
+                transcription="ЈЂ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>мир</word>
+                </translations>
+                <examples>
+                    <example>war and peace — война и мир</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="195">peaceful</word>
+        <meanings>
+            <meaning
+                sound="peaceful.wav"
+                transcription="'ЈЂ©§(†)®, 'ЈЂ©§Ќ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>мирный, миролюбивый</word>
+                </translations>
+                <examples>
+                    <example>peaceful coexistence — мирное сосуществование</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="196">pen</word>
+        <meanings>
+            <meaning
+                sound="pen.wav"
+                transcription="Јў­">
+                <statistics status="2"/>
+                <translations>
+                    <word>перо (писчее)</word>
+                    <word>ручка с пером</word>
+                </translations>
+                <examples>
+                    <example>I am writing with the gold pen he gave me. — Я пишу золотым пером,
+                        которое он подарил мне.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="197">pencil</word>
+        <meanings>
+            <meaning
+                sound="pencil.wav"
+                transcription="'Јў­(«)©(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>карандаш</word>
+                </translations>
+                <examples>
+                    <example>blunt / sharp pencil — тупой / острый карандаш</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="198">people</word>
+        <meanings>
+            <meaning
+                sound="people.wav"
+                transcription="'ЈЂЈ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>люди одной национальности</word>
+                    <word>нация, народ</word>
+                </translations>
+                <examples>
+                    <example>the English people — англичане</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="199">perfect</word>
+        <meanings>
+            <meaning
+                sound="perfect.wav"
+                transcription="'Ј„§Ў°«">
+                <statistics status="2"/>
+                <translations>
+                    <word>совершенный, безупречный</word>
+                    <word>безукоризненный (без изъяна)</word>
+                </translations>
+                <examples>
+                    <example>His English was perfect. — Он безупречно говорил по-английски.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="200">perform</word>
+        <meanings>
+            <meaning
+                sound="perform.wav"
+                transcription="Ј†'§‚Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>исполнять, выполнять</word>
+                    <word>делать, совершать</word>
+                </translations>
+                <examples>
+                    <example>to perform a contract — выполнять условия контракта</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="201">performance</word>
+        <meanings>
+            <meaning
+                sound="performance.wav"
+                transcription="Ј†'§‚Ґ†­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>исполнение, выполнение</word>
+                </translations>
+                <examples>
+                    <example>to deliver / give / put on a performance — исполнять, выполнять
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="202">perhaps</word>
+        <meanings>
+            <meaning
+                sound="perhaps.wav"
+                transcription="Ј†'І‡Ј©, ЈЇ‡Ј©">
+                <statistics status="2"/>
+                <translations>
+                    <word>может быть, возможно, наверно</word>
+                </translations>
+                <examples>
+                    <example>'Will you come?' - 'Perhaps.' — "Ты придёшь?" - "Может быть."</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="203">period</word>
+        <meanings>
+            <meaning
+                sound="period.wav"
+                transcription="'ЈЎ†ЇЎ†¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>период</word>
+                    <word>промежуток времени, срок</word>
+                </translations>
+                <examples>
+                    <example>for a period — на время</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="204">permission</word>
+        <meanings>
+            <meaning
+                sound="permission.wav"
+                transcription="Ј†'ҐЎЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>позволение, разрешение</word>
+                </translations>
+                <examples>
+                    <example>to give smb. permission — давать разрешение кому-л.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="205">person</word>
+        <meanings>
+            <meaning
+                sound="person.wav"
+                transcription="'Ј„©(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>человек</word>
+                    <word>личность, особа</word>
+                    <word>субъект</word>
+                </translations>
+                <examples>
+                    <example>not a single person — ни единой живой души, никого</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="206">personal</word>
+        <meanings>
+            <meaning
+                sound="personal.wav"
+                transcription="'Ј„©(†)­(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>персональный, личный</word>
+                </translations>
+                <examples>
+                    <example>personal ad — частное объявление (в газете)</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="207">persuade</word>
+        <meanings>
+            <meaning
+                sound="persuade.wav"
+                transcription="Ј†'©¦ўЎ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>убеждать (в чём-л.)</word>
+                    <word>урезонивать</word>
+                    <word>пенять</word>
+                </translations>
+                <examples>
+                    <example>He failed / didn't manage to persuade me. — Ему не удалось меня
+                        убедить.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="208">petrol</word>
+        <meanings>
+            <meaning
+                sound="petrol.wav"
+                transcription="'Јў«Ї(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>бензин</word>
+                    <word>газолин</word>
+                    <word>моторное топливо</word>
+                </translations>
+                <examples>
+                    <example>petrol consumption — расход горючего</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="209">phone</word>
+        <meanings>
+            <meaning
+                sound="phone.wav"
+                transcription="§†Ќ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>телефон</word>
+                </translations>
+                <examples>
+                    <example>You are wanted on the phone. — Вас к телефону.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="210">physical</word>
+        <meanings>
+            <meaning
+                sound="physical.wav"
+                transcription="'§ЎЄЎ°(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>физический, материальный, вещественный</word>
+                </translations>
+                <examples>
+                    <example>physical power — физическая сила</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="211">pick</word>
+        <meanings>
+            <meaning
+                sound="pick.wav"
+                transcription="ЈЎ°">
+                <statistics status="2"/>
+                <translations>
+                    <word>кирка, кайло, лом</word>
+                    <word>ледоруб</word>
+                </translations>
+                <examples>
+                    <example>to pick out — вынимать выдёргивать</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="212">picture</word>
+        <meanings>
+            <meaning
+                sound="picture.wav"
+                transcription="'ЈЎ° †">
+                <statistics status="2"/>
+                <translations>
+                    <word>картина</word>
+                    <word>рисунок</word>
+                </translations>
+                <examples>
+                    <example>picture by Rubens — картина Рубенса</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="213">piece</word>
+        <meanings>
+            <meaning
+                sound="piece.wav"
+                transcription="ЈЂ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>кусок</word>
+                    <word>часть</word>
+                    <word>участок</word>
+                </translations>
+                <examples>
+                    <example>a piece of water — пруд, озерко</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="214">pile</word>
+        <meanings>
+            <meaning
+                sound="pile.wav"
+                transcription="ЈµЎ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>куча, груда, штабель</word>
+                    <word>столбик (монет)</word>
+                </translations>
+                <examples>
+                    <example>pile of stones — груда камней</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="215">pin</word>
+        <meanings>
+            <meaning
+                sound="pin.wav"
+                transcription="ЈЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>пробойник, штифт, болт, ось</word>
+                </translations>
+                <examples>
+                    <example>pin pricks — булавка колется</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="216">pinch</word>
+        <meanings>
+            <meaning
+                sound="pinch.wav"
+                transcription="ЈЎ­ ">
+                <statistics status="2"/>
+                <translations>
+                    <word>щипок</word>
+                </translations>
+                <examples>
+                    <example>at a pinch, if it comes to the pinch — в случае нужды, в крайнем
+                        случае
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="217">pipe</word>
+        <meanings>
+            <meaning
+                sound="pipe.wav"
+                transcription="ЈµЎЈ">
+                <statistics status="2"/>
+                <translations>
+                    <word>(курительная) трубка</word>
+                </translations>
+                <examples>
+                    <example>to fill one's pipe — набивать трубку</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="218">pity</word>
+        <meanings>
+            <meaning
+                sound="pity.wav"
+                transcription="'ЈЎ«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>жалость, сожаление, сострадание</word>
+                </translations>
+                <examples>
+                    <example>for pity's sake! — умоляю вас!</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="219">place</word>
+        <meanings>
+            <meaning
+                sound="place.wav"
+                transcription="Ј®ўЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>место, занятое пространство</word>
+                </translations>
+                <examples>
+                    <example>No matter at what place or time you are in the universe. — Не важно, в
+                        какой точке пространства и времени универсума вы находитесь.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="220">plain</word>
+        <meanings>
+            <meaning
+                sound="plain.wav"
+                transcription="Ј®ўЎ­">
+                <statistics status="2"/>
+                <translations>
+                    <word>очевидный, явный, ясный</word>
+                </translations>
+                <examples>
+                    <example>The facts are plain to see. — Факты просты.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="221">plan</word>
+        <meanings>
+            <meaning
+                sound="plan.wav"
+                transcription="Ј®‡­">
+                <statistics status="2"/>
+                <translations>
+                    <word>план</word>
+                    <word>проект</word>
+                </translations>
+                <examples>
+                    <example>to accept a plan — принимать, одобрять план</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="222">plant</word>
+        <meanings>
+            <meaning
+                sound="plant.wav"
+                transcription="Ј®Ѓ­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>растение</word>
+                </translations>
+                <examples>
+                    <example>to grow plants — выращивать растения</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="223">plastic</word>
+        <meanings>
+            <meaning
+                sound="plastic.wav"
+                transcription="'Ј®‡©«Ў°">
+                <statistics status="2"/>
+                <translations>
+                    <word>пластический (связанный с ваянием, пластикой, созданием форм)</word>
+                </translations>
+                <examples>
+                    <example>plastic art — скульптура, лепка, ваяние</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="224">plate</word>
+        <meanings>
+            <meaning
+                sound="plate.wav"
+                transcription="Ј®ўЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>тарелка, блюдце, блюдо</word>
+                </translations>
+                <examples>
+                    <example>cake plate — пирожковая тарелка, десертная тарелка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="225">platform</word>
+        <meanings>
+            <meaning
+                sound="platform.wav"
+                transcription="'Ј®‡«§‚Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>основные принципы, положения религиозного учения</word>
+                </translations>
+                <examples>
+                    <example>to adopt a platform — занять позицию</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="226">play</word>
+        <meanings>
+            <meaning
+                sound="play.wav"
+                transcription="Ј®ўЎ">
+                <statistics status="2"/>
+                <translations>
+                    <word>игра, развлечение, забава</word>
+                </translations>
+                <examples>
+                    <example>at play — в игре, в процессе игры</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="227">pleasant</word>
+        <meanings>
+            <meaning
+                sound="pleasant.wav"
+                transcription="'Ј®ўЄ(†)­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>приятный</word>
+                    <word>радостный</word>
+                    <word>милый, симпатичный</word>
+                    <word>славный</word>
+                </translations>
+                <examples>
+                    <example>pleasant day — милый денёк</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="228">please</word>
+        <meanings>
+            <meaning
+                sound="please.wav"
+                transcription="Ј®ЂЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>радовать, доставлять удовольствие</word>
+                    <word>быть в радость, нравиться (кому-л.)</word>
+                    <word>угождать</word>
+                </translations>
+                <examples>
+                    <example>a music that pleases — приятная музыка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="229">pleased</word>
+        <meanings>
+            <meaning
+                sound="pleased.wav"
+                transcription="Ј®ЂЄ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>довольный</word>
+                </translations>
+                <examples>
+                    <example>greatly / highly pleased — очень довольный</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="230">pleasure</word>
+        <meanings>
+            <meaning
+                sound="pleasure.wav"
+                transcription="'Ј®ўЉ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>удовольствие</word>
+                    <word>кто-л. или что-л., доставляющее удовольствие</word>
+                </translations>
+                <examples>
+                    <example>with great pleasure — с большим, превеликим удовольствием</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="231">plenty</word>
+        <meanings>
+            <meaning
+                sound="plenty.wav"
+                transcription="'Ј®ў­«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>(из)обилие</word>
+                    <word>достаток</word>
+                </translations>
+                <examples>
+                    <example>horn of plenty — рог изобилия</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="232">pocket</word>
+        <meanings>
+            <meaning
+                sound="pocket.wav"
+                transcription="'Ј€°Ў«">
+                <statistics status="2"/>
+                <translations>
+                    <word>карман, кармашек</word>
+                </translations>
+                <examples>
+                    <example>to pick smb.'s pocket — обворовывать кого-л, чистить кому-л. карманы
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="233">point</word>
+        <meanings>
+            <meaning
+                sound="point.wav"
+                transcription="Ј€Ў­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>точка, пятнышко, крапинка</word>
+                </translations>
+                <examples>
+                    <example>body dotted with numerous red points — тело, усыпанное многочисленными
+                        красными пятнышками
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="234">poison</word>
+        <meanings>
+            <meaning
+                sound="poison.wav"
+                transcription="'Ј€ЎЄ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>яд, отрава</word>
+                </translations>
+                <examples>
+                    <example>powerful poison — сильный яд</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="235">police</word>
+        <meanings>
+            <meaning
+                sound="police.wav"
+                transcription="Ј†'®Ђ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>полиция</word>
+                </translations>
+                <examples>
+                    <example>police power — охрана государственного правового порядка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="236">polite</word>
+        <meanings>
+            <meaning
+                sound="polite.wav"
+                transcription="Ј†'®µЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>вежливый, любезный, учтивый, обходительный</word>
+                    <word>благовоспитанный</word>
+                </translations>
+                <examples>
+                    <example>polite education / learning — классическое образование</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="237">politics</word>
+        <meanings>
+            <meaning
+                sound="politics.wav"
+                transcription="'Ј€®†«Ў°©">
+                <statistics status="2"/>
+                <translations>
+                    <word>политика</word>
+                </translations>
+                <examples>
+                    <example>slackwater politics — политика "тихой заводи"</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="238">pollution</word>
+        <meanings>
+            <meaning transcription="Ј†'®ѓЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>загрязнение</word>
+                </translations>
+                <examples>
+                    <example>to control pollution — бороться с загрязнением</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="239">pool</word>
+        <meanings>
+            <meaning
+                sound="pool.wav"
+                transcription="Јѓ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>лужа</word>
+                    <word>лужица</word>
+                    <word>прудок</word>
+                    <word>озерцо</word>
+                </translations>
+                <examples>
+                    <example>freshwater pool — озерцо с пресной водой</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="240">poor</word>
+        <meanings>
+            <meaning
+                sound="poor.wav"
+                transcription="Ј‚, ЈЌ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>бедный, малоимущий, неимущий</word>
+                </translations>
+                <examples>
+                    <example>one of the world's poorest countries — одна из беднейших стран в мире
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="241">popular</word>
+        <meanings>
+            <meaning
+                sound="popular.wav"
+                transcription="'Ј€Јі†®†">
+                <statistics status="2"/>
+                <translations>
+                    <word>популярный, широко распространённый</word>
+                </translations>
+                <examples>
+                    <example>contrary to popular opinion / view / belief — вопреки расхожему
+                        мнению
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="242">port</word>
+        <meanings>
+            <meaning
+                sound="port.wav"
+                transcription="Ј‚«">
+                <statistics status="2"/>
+                <translations>
+                    <word>гавань</word>
+                </translations>
+                <examples>
+                    <example>free port — вольная гавань, порто-франко</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="243">possible</word>
+        <meanings>
+            <meaning
+                sound="possible.wav"
+                transcription="'Ј€©†¤®">
+                <statistics status="2"/>
+                <translations>
+                    <word>вероятный, возможный</word>
+                </translations>
+                <examples>
+                    <example>possible consequences — возможные последствия</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="244">possibly</word>
+        <meanings>
+            <meaning
+                sound="possibly.wav"
+                transcription="'Ј€©†¤®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>возможно</word>
+                    <word>может быть</word>
+                </translations>
+                <examples>
+                    <example>We could possibly get some money, if we asked my parents. — Мы бы могли
+                        наверное раздобыть денег, если бы попросили у моих родителям.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="245">post</word>
+        <meanings>
+            <meaning
+                sound="post.wav"
+                transcription="Ј†Ќ©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>мачта, подпорка, свая, стойка</word>
+                </translations>
+                <examples>
+                    <example>as deaf as a post — глухой как пень, совершенно глухой</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="246">pour</word>
+        <meanings>
+            <meaning
+                sound="pour.wav"
+                transcription="Ј‚">
+                <statistics status="2"/>
+                <translations>
+                    <word>литься (о воде, свете)</word>
+                    <word>идти, валить (о дыме)</word>
+                </translations>
+                <examples>
+                    <example>Light poured forth from the many lamps. — Из многочисленных прожекторов
+                        лился свет.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="247">power</word>
+        <meanings>
+            <meaning
+                sound="power.wav"
+                transcription="'ЈµЌ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>сила, мощь</word>
+                    <word>могущество</word>
+                </translations>
+                <examples>
+                    <example>the power of the blow — сила удара</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="248">powerful</word>
+        <meanings>
+            <meaning
+                sound="powerful.wav"
+                transcription="'ЈµЌ†§(†)®, 'ЈµЌ†§Ќ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>крепкий, могучий, мощный, сильный</word>
+                </translations>
+                <examples>
+                    <example>powerful blow — мощный удар</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="249">practical</word>
+        <meanings>
+            <meaning
+                sound="practical.wav"
+                transcription="'ЈЇ‡°«Ў°(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>практический</word>
+                    <word>утилитарный</word>
+                </translations>
+                <examples>
+                    <example>a practical knowledge of English — практическое владение английским
+                        языком
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="250">practice</word>
+        <meanings>
+            <meaning
+                sound="practice.wav"
+                transcription="'ЈЇ‡°«Ў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>практика</word>
+                    <word>выполнение, осуществление на практике</word>
+                </translations>
+                <examples>
+                    <example>It was with difficulty that he was induced to stoop from speculation to
+                        practice. — Его с трудом убедили перейти от размышлений к действиям.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="251">practise</word>
+        <meanings>
+            <meaning
+                sound="practise.wav"
+                transcription="'ЈЇ‡°«Ў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>применять, осуществлять на практике</word>
+                </translations>
+                <examples>
+                    <example>He always practises politeness. — Он всегда соблюдает правила
+                        вежливости.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="252">praise</word>
+        <meanings>
+            <meaning
+                sound="praise.wav"
+                transcription="ЈЇўЎЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>(по)хвала</word>
+                    <word>восхваление</word>
+                </translations>
+                <examples>
+                    <example>fulsome praise — неискренняя похвала</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="253">precise</word>
+        <meanings>
+            <meaning
+                sound="precise.wav"
+                transcription="ЈЇЎ'©µЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>точный</word>
+                    <word>определённый</word>
+                </translations>
+                <examples>
+                    <example>precise meaning — точное значение</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="254">prefer</word>
+        <meanings>
+            <meaning
+                sound="prefer.wav"
+                transcription="ЈЇЎ'§„">
+                <statistics status="2"/>
+                <translations>
+                    <word>предпочитать</word>
+                </translations>
+                <examples>
+                    <example>At this time of day, I prefer tea to coffee. — В это время дня я
+                        предпочитаю пить чай, а не кофе.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="255">preparation</word>
+        <meanings>
+            <meaning
+                sound="preparation.wav"
+                transcription=",ЈЇўЈ(†)'ЇўЎЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>подготовка, приготовление</word>
+                </translations>
+                <examples>
+                    <example>A new edition is in active preparation. — Полным ходом идет подготовка
+                        нового издания.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="256">prepare</word>
+        <meanings>
+            <meaning
+                sound="prepare.wav"
+                transcription="ЈЇЎ'Јґ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>готовить, подготавливать (к чему-л.), тренировать (кого-л.)</word>
+                </translations>
+                <examples>
+                    <example>to prepare students for senior managerial positions — готовить
+                        студентов к старшим административным должностям
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="257">present</word>
+        <meanings>
+            <meaning
+                sound="present.wav"
+                transcription="'ЈЇўЄ(†)­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>текущий момент</word>
+                    <word>настоящее</word>
+                    <word>настоящее время</word>
+                </translations>
+                <examples>
+                    <example>at present — в настоящее время, в данное время, теперь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="258">press</word>
+        <meanings>
+            <meaning
+                sound="press.wav"
+                transcription="ЈЇў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>надавливание, нажатие</word>
+                </translations>
+                <examples>
+                    <example>give it a slight press — слегка нажмите</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="259">pressure</word>
+        <meanings>
+            <meaning
+                sound="pressure.wav"
+                transcription="'ЈЇўЏ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>давление</word>
+                    <word>сжатие, стискивание</word>
+                </translations>
+                <examples>
+                    <example>She kicked at the door with her foot, and the pressure was enough to
+                        open it. — Она толкнула ногой дверь, и сила удара оказалась достаточной,
+                        чтобы открыть её.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="260">pretend</word>
+        <meanings>
+            <meaning
+                sound="pretend.wav"
+                transcription="ЈЇЎ'«ў­¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>притворяться, делать вид</word>
+                    <word>симулировать</word>
+                </translations>
+                <examples>
+                    <example>She pretended not to notice. — Она сделала вид, что ничего не
+                        заметила.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="261">pretty</word>
+        <meanings>
+            <meaning
+                sound="pretty.wav"
+                transcription="'ЈЇЎ«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>милый, прелестный</word>
+                </translations>
+                <examples>
+                    <example>That's a pretty hat you are wearing. — У тебя прелестная шляпка.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="262">prevent</word>
+        <meanings>
+            <meaning
+                sound="prevent.wav"
+                transcription="ЈЇЎ'ђў­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>предотвращать, предупреждать</word>
+                </translations>
+                <examples>
+                    <example>to prevent the spread of disease — предупредить распространение
+                        болезни
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="263">previous</word>
+        <meanings>
+            <meaning
+                sound="previous.wav"
+                transcription="'ЈЇЂђЎ†©">
+                <statistics status="2"/>
+                <translations>
+                    <word>предыдущий</word>
+                    <word>предшествующий</word>
+                </translations>
+                <examples>
+                    <example>the previous day — накануне</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="264">price</word>
+        <meanings>
+            <meaning
+                sound="price.wav"
+                transcription="ЈЇµЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>цена</word>
+                </translations>
+                <examples>
+                    <example>high price — высокая цена</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="265">pride</word>
+        <meanings>
+            <meaning
+                sound="pride.wav"
+                transcription="ЈЇµЎ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>гордость</word>
+                    <word>чувство гордости</word>
+                </translations>
+                <examples>
+                    <example>to appeal to smb.'s pride — взывать к чьей-л. гордости</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="266">principle</word>
+        <meanings>
+            <meaning
+                sound="principle.wav"
+                transcription="'ЈЇЎ­(«)©†Ј®">
+                <statistics status="2"/>
+                <translations>
+                    <word>правило</word>
+                    <word>закон</word>
+                    <word>принцип</word>
+                </translations>
+                <examples>
+                    <example>high principle — высокие идеалы, принципы</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="267">print</word>
+        <meanings>
+            <meaning
+                sound="print.wav"
+                transcription="ЈЇЎ­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>оттиск</word>
+                    <word>отпечаток</word>
+                    <word>след</word>
+                </translations>
+                <examples>
+                    <example>I took the print of the golden age. — Я получил представление о том,
+                        что такое золотой век.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="268">priority</word>
+        <meanings>
+            <meaning
+                sound="priority.wav"
+                transcription="ЈЇµЎ'€Ї†«Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>первенство, преимущество, приоритет, старшинство</word>
+                </translations>
+                <examples>
+                    <example>to establish / set a priority — расставить приоритеты, определить
+                        систему ценностей
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="269">private</word>
+        <meanings>
+            <meaning
+                sound="private.wav"
+                transcription="'ЈЇµЎђЎ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>частный, личный, персональный, приватный</word>
+                </translations>
+                <examples>
+                    <example>private correspondence — частная переписка</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="270">prize</word>
+        <meanings>
+            <meaning
+                sound="prize.wav"
+                transcription="ЈЇµЎЄ">
+                <statistics status="2"/>
+                <translations>
+                    <word>награда, премия, приз</word>
+                </translations>
+                <examples>
+                    <example>to award / give a prize — награждать, вручать приз</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="271">probably</word>
+        <meanings>
+            <meaning
+                sound="probably.wav"
+                transcription="'ЈЇ€¤†¤®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>вероятно, наверное</word>
+                </translations>
+                <examples>
+                    <example>it will probably rain — наверное, пойдёт дождь</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="272">problem</word>
+        <meanings>
+            <meaning
+                sound="problem.wav"
+                transcription="'ЈЇ€¤®†Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>проблема</word>
+                    <word>вопрос</word>
+                    <word>задача</word>
+                </translations>
+                <examples>
+                    <example>acute / major / pressing problem — насущная, острая проблема</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="273">process</word>
+        <meanings>
+            <meaning
+                sound="process.wav"
+                transcription="'ЈЇ†Ќ©ў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>процесс, ход развития</word>
+                </translations>
+                <examples>
+                    <example>the process of growth — процесс роста, рост</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="274">produce</word>
+        <meanings>
+            <meaning
+                sound="produce.wav"
+                transcription="'ЈЇ€¬іѓ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>изделие, изделия</word>
+                    <word>продукт, продукция</word>
+                </translations>
+                <examples>
+                    <example>home produce — товар / товары отечественного производства</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="275">professional</word>
+        <meanings>
+            <meaning
+                sound="professional.wav"
+                transcription="ЈЇ†'§ўЏ(†)­(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>профессиональный, имеющий отношение к профессии</word>
+                </translations>
+                <examples>
+                    <example>professional contacts — деловые контакты</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="276">profit</word>
+        <meanings>
+            <meaning
+                sound="profit.wav"
+                transcription="'ЈЇ€§Ў«">
+                <statistics status="2"/>
+                <translations>
+                    <word>выгода, полезность, польза</word>
+                </translations>
+                <examples>
+                    <example>to make a profit on — извлечь выгоду из</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="277">programme</word>
+        <meanings>
+            <meaning
+                sound="programme.wav"
+                transcription="'ЈЇ†Ќ±Ї‡Ґ">
+                <statistics status="2"/>
+                <translations>
+                    <word>программа, план</word>
+                </translations>
+                <examples>
+                    <example>to carry out / implement a programme — осуществлять / претворять в
+                        жизнь программу, выполнять план
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="278">progress</word>
+        <meanings>
+            <meaning
+                sound="progress.wav"
+                transcription="'ЈЇ†Ќ±Їў©">
+                <statistics status="2"/>
+                <translations>
+                    <word>прогресс, развитие</word>
+                    <word>движение вперёд, продвижение</word>
+                </translations>
+                <examples>
+                    <example>to facilitate progress — способствовать развитию / движению вперёд
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="279">promise</word>
+        <meanings>
+            <meaning
+                sound="promise.wav"
+                transcription="'ЈЇ€ҐЎ©">
+                <statistics status="2"/>
+                <translations>
+                    <word>обещание</word>
+                </translations>
+                <examples>
+                    <example>to give / make a promise — обещать</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="280">pronounce</word>
+        <meanings>
+            <meaning
+                sound="pronounce.wav"
+                transcription="ЈЇ†'­µЌ­(«)©">
+                <statistics status="2"/>
+                <translations>
+                    <word>объявлять</word>
+                    <word>декларировать</word>
+                    <word>заявлять</word>
+                </translations>
+                <examples>
+                    <example>to pronounce for (against) smb. — выносить решение (не) в чью-л.
+                        пользу
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="281">pronunciation</word>
+        <meanings>
+            <meaning
+                sound="pronunciation.wav"
+                transcription="ЈЇ†,­…­(«)©Ў'ўЎЏ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>произношение, выговор</word>
+                    <word>акцент</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="282">proof</word>
+        <meanings>
+            <meaning
+                sound="proof.wav"
+                transcription="ЈЇѓ§">
+                <statistics status="2"/>
+                <translations>
+                    <word>подтверждение, доказательство</word>
+                </translations>
+                <examples>
+                    <example>to furnish / give / offer / present / produce / provide proof —
+                        представить доказательство
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="283">proper</word>
+        <meanings>
+            <meaning
+                sound="proper.wav"
+                transcription="'ЈЇ€Ј†">
+                <statistics status="2"/>
+                <translations>
+                    <word>присущий, свойственный</word>
+                </translations>
+                <examples>
+                    <example>proper name / noun — имя собственное</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="284">properly</word>
+        <meanings>
+            <meaning
+                sound="properly.wav"
+                transcription="'ЈЇ€Ј(†)®Ў">
+                <statistics status="2"/>
+                <translations>
+                    <word>должным образом</word>
+                    <word>как следует</word>
+                    <word>правильно</word>
+                </translations>
+                <examples>
+                    <example>Law can never regulate wages properly. — Закон никогда не может в
+                        должной мере регулировать заработную плату.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="285">protect</word>
+        <meanings>
+            <meaning
+                sound="protect.wav"
+                transcription="ЈЇ†'«ў°«">
+                <statistics status="2"/>
+                <translations>
+                    <word>(protect from / against)</word>
+                </translations>
+                <examples>
+                    <example>to protect one's interests / rights / reputation — защищать свои
+                        интересы / права / репутацию
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="286">protection</word>
+        <meanings>
+            <meaning
+                sound="protection.wav"
+                transcription="ЈЇ†'«ў°Џ(†)­">
+                <statistics status="2"/>
+                <translations>
+                    <word>защита, охрана</word>
+                </translations>
+                <examples>
+                    <example>to live under the protection of smb. — быть чьей-л. содержанкой
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="287">protest</word>
+        <meanings>
+            <meaning
+                sound="protest.wav"
+                transcription="'ЈЇ†Ќ«ў©«">
+                <statistics status="2"/>
+                <translations>
+                    <word>протест, апелляция, опротестование</word>
+                </translations>
+                <examples>
+                    <example>to cause / draw / spark / spark off / trigger a protest — вызывать
+                        волну протеста
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="288">proud</word>
+        <meanings>
+            <meaning
+                sound="proud.wav"
+                transcription="ЈЇµЌ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>гордый</word>
+                    <word>обладающий чувством собственного достоинства</word>
+                </translations>
+                <examples>
+                    <example>He might be poor but he's also proud. — Он, может быть, бедный, но у
+                        него есть чувство собственного достоинства.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="289">prove</word>
+        <meanings>
+            <meaning
+                sound="prove.wav"
+                transcription="ЈЇѓђ">
+                <statistics status="2"/>
+                <translations>
+                    <word>доказывать</word>
+                </translations>
+                <examples>
+                    <example>You will have to prove to the police that you were at home that night.
+                        — Тебе придётся доказать полиции, что той ночью ты был дома.
+                    </example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="290">provide</word>
+        <meanings>
+            <meaning
+                sound="provide.wav"
+                transcription="ЈЇ†'ђµЎ¬">
+                <statistics status="2"/>
+                <translations>
+                    <word>(provide with) снабжать</word>
+                    <word>доставлять</word>
+                    <word>обеспечивать (кого-л. / что-л.)</word>
+                </translations>
+                <examples>
+                    <example>to provide smb. with goods — снабдить кого-л. товарами</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="291">public</word>
+        <meanings>
+            <meaning
+                sound="public.wav"
+                transcription="'Ј…¤®Ў°">
+                <statistics status="2"/>
+                <translations>
+                    <word>общественный</word>
+                    <word>государственный</word>
+                </translations>
+                <examples>
+                    <example>public broadcasting — государственное радиовещание</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="292">pull</word>
+        <meanings>
+            <meaning
+                sound="pull.wav"
+                transcription="ЈЌ®">
+                <statistics status="2"/>
+                <translations>
+                    <word>тяга, дёрганье, рывок</word>
+                </translations>
+                <examples>
+                    <example>to give a pull at the bell — дёрнуть звонок</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="293">pump</word>
+        <meanings>
+            <meaning
+                sound="pump.wav"
+                transcription="Ј…ҐЈ">
+                <statistics status="2"/>
+                <translations>
+                    <word>насос</word>
+                    <word>помпа</word>
+                </translations>
+                <examples>
+                    <example>to prime a pump — заливать насос (перед пуском)</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="294">punish</word>
+        <meanings>
+            <meaning
+                sound="punish.wav"
+                transcription="'Ј…­ЎЏ">
+                <statistics status="2"/>
+                <translations>
+                    <word>наказывать</word>
+                    <word>карать</word>
+                    <word>налагать взыскание</word>
+                </translations>
+                <examples>
+                    <example>to punish cruelly — жестоко покарать</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="295">punishment</word>
+        <meanings>
+            <meaning
+                sound="punishment.wav"
+                transcription="'Ј…­ЎЏҐ†­«">
+                <statistics status="2"/>
+                <translations>
+                    <word>кара, наказание</word>
+                </translations>
+                <examples>
+                    <example>capital punishment — смертная казнь, высшая мера наказания</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="296">pupil</word>
+        <meanings>
+            <meaning
+                sound="pupil.wav"
+                transcription="'ЈіѓЈ(†)®">
+                <statistics status="2"/>
+                <translations>
+                    <word>ученик</word>
+                    <word>воспитанник</word>
+                </translations>
+                <examples>
+                    <example>pupils-contracted — суженные зрачки</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="297">pure</word>
+        <meanings>
+            <meaning
+                sound="pure.wav"
+                transcription="ЈіЌ†">
+                <statistics status="2"/>
+                <translations>
+                    <word>чистый</word>
+                    <word>беспримесный</word>
+                </translations>
+                <examples>
+                    <example>pure air — чистый воздух</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="298">push</word>
+        <meanings>
+            <meaning
+                sound="push.wav"
+                transcription="ЈЌЏ">
+                <statistics status="2"/>
+                <translations>
+                    <word>толчок</word>
+                    <word>толкание, пихание</word>
+                </translations>
+                <examples>
+                    <example>to give smb. / smth. a push — толкнуть кого-л. / что-л.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="299">put</word>
+        <meanings>
+            <meaning
+                sound="put.wav"
+                transcription="ЈЌ«">
+                <statistics status="2"/>
+                <translations>
+                    <word>класть, ставить</word>
+                </translations>
+                <examples>
+                    <example>Put the book on the table! — Положите книгу на стол.</example>
+                </examples>
+            </meaning>
+        </meanings>
+    </card>
+    <card>
+        <word wordId="300">www.lingvotutor.ru</word>
+        <meanings>
+            <meaning>
+                <statistics status="2"/>
+                <translations>
+                    <word>Больше слов на сайте!</word>
+                </translations>
+                <examples/>
+            </meaning>
+        </meanings>
+    </card>
+</dictionary>
+
+

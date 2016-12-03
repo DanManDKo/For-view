@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'realm-android'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
@@ -30,4 +30,5 @@ dependencies {
     compile 'io.reactivex:rxjava:1.2.1'
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.stanfy:gson-xml-java:0.1.+'
 }

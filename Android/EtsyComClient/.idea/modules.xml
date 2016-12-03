@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MVPRETROFIT.iml" filepath="$PROJECT_DIR$/MVPRETROFIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EtsyComClient.iml" filepath="$PROJECT_DIR$/EtsyComClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

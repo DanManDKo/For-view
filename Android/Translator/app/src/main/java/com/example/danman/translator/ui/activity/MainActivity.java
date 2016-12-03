@@ -9,13 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.danman.translator.App;
 import com.example.danman.translator.R;
@@ -24,8 +22,10 @@ import com.example.danman.translator.contract.TranslationContract;
 import com.example.danman.translator.manager.SpinnerManager;
 import com.example.danman.translator.model.TranslationResult;
 import com.example.danman.translator.presenter.TranslationPresenter;
+import com.example.danman.translator.util.XmlParser;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
     private EditText mSourceET;
     private TranslationPresenter mTranslationPresenter;
     private Map<String, String> mFields;
+    private Map<String,String>mDictionary;
     private Spinner mFromSpinner;
     private Spinner mToSpinner;
     private SpinnerManager mSpinnerManager;
@@ -57,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
         mTranslationPresenter.attachView(this);
         mSpinnerManager = App.getSpinnerManager();
         initViews();
+        mDictionary = XmlParser.getDictionary(this);
+
+
     }
 
     private void initViews() {
