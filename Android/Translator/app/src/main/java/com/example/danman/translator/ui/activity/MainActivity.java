@@ -1,10 +1,12 @@
 package com.example.danman.translator.ui.activity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -24,6 +26,7 @@ import com.example.danman.translator.model.TranslationResult;
 import com.example.danman.translator.presenter.TranslationPresenter;
 import com.example.danman.translator.util.XmlParser;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -38,15 +41,15 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
     private EditText mSourceET;
     private TranslationPresenter mTranslationPresenter;
     private Map<String, String> mFields;
-    private Map<String,String>mDictionary;
+    private Map<String, String> mDictionary;
     private Spinner mFromSpinner;
     private Spinner mToSpinner;
     private SpinnerManager mSpinnerManager;
-    private RelativeLayout mRelativeLayout;
     private final String TAG = "ApiError";
     private final String KEY = "key";
     private final String LANGUAGE = "lang";
-    private final String TEXT = "text";
+    public static final String TEXT = "text";
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -70,7 +73,6 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
         mTranslateFAB = (FloatingActionButton) findViewById(R.id.main_fab);
         mSourceET = (EditText) findViewById(R.id.source_et);
         mResultTV = (TextView) findViewById(R.id.result_tv);
-        mRelativeLayout = (RelativeLayout) findViewById(R.id.main_relative_layout);
         initSpinners();
         initFAB();
     }
@@ -79,16 +81,13 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
         mTranslateFAB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (mTranslationPresenter.isOnline()) {
-                    mFields.put(TEXT, mSourceET.getText().toString());
-                    mFields.put(LANGUAGE, mSpinnerManager.getLngPair(mFromSpinner, mToSpinner));
-                    mTranslationPresenter.translate(mFields);
-                } else {
-                    Snackbar.make(mRelativeLayout, R.string.connection_troubles, Snackbar.LENGTH_SHORT).show();
-                }
+                mFields.put(TEXT, mSourceET.getText().toString().toLowerCase());
+                mFields.put(LANGUAGE, mSpinnerManager.getLngPair(mFromSpinner, mToSpinner).toLowerCase());
+                mTranslationPresenter.translate(mFields);
             }
         });
     }
+
 
     private void initSpinners() {
         mFromSpinner = (Spinner) findViewById(R.id.from_spinner);
@@ -102,11 +101,13 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
 
     @Override
     public void onTranslationResult(TranslationResult result) {
-        StringBuilder stringBuilder = new StringBuilder();
-        String[] results = result.getText();
-        for (String st : results)
-            stringBuilder.append(st + " ");
-        mResultTV.setText(stringBuilder.toString());
+        if (result != null) {
+            StringBuilder stringBuilder = new StringBuilder();
+            String[] results = result.getText();
+            for (String st : results)
+                stringBuilder.append(st + " ");
+            mResultTV.setText(stringBuilder.toString());
+        }
     }
 
     @Override

@@ -2,5 +2,7 @@
     <string name="app_name">Translator</string>
     <string name="from">From</string>
     <string name="to">To</string>
-    <string name="connection_troubles">Check your connection and try again</string>
+    <string name="connection_troubles">Connection troubles</string>
+    <string name="do_not_despair">Do not despair! You still can use english-russian dictionary offline. Do you wanna try it?</string>
+    <string name="ok">Ok</string>
 </resources>
