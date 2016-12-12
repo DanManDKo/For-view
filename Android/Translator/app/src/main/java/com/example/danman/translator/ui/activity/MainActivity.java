@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity implements TranslationContra
             for (String st : results)
                 stringBuilder.append(st + " ");
             mResultTV.setText(stringBuilder.toString());
+
         }
     }
 
