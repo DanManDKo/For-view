@@ -9,8 +9,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.danman.testapp.R;
-import com.example.danman.testapp.ui.model.SomeModel;
+import com.example.danman.testapp.model.SomeModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -21,8 +22,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
  */
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private List<SomeModel> items;
-    private RecyclerViewOnItemClick mRecyclerViewOnItemClick;
-
+    private OnItemClickCallBack mOnItemClickListener;
 
     public RecyclerViewAdapter(@NonNull List<SomeModel> models) {
         items = models;
@@ -41,6 +41,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 .into(holder.mImageView);
         holder.mFirstLine.setText(someModel.getTextOne());
         holder.mSecondLine.setText(someModel.getTextTwo());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+             mOnItemClickListener.onItemClick(items.get(position));
+            }
+        });
 
     }
 
@@ -62,11 +68,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 
-    public interface RecyclerViewOnItemClick {
-        void onItemClickCallBack(SomeModel someModel);
+    public void setFilter(List<SomeModel> items) {
+        this.items = new ArrayList<>();
+        this.items.addAll(items);
+        notifyDataSetChanged();
     }
 
-    public void setRecyclerViewOnItemClick(RecyclerViewOnItemClick recyclerViewOnItemClick) {
-        mRecyclerViewOnItemClick = recyclerViewOnItemClick;
+    public void setOnItemClickListener(OnItemClickCallBack listener) {
+        mOnItemClickListener = listener;
     }
+
+    public interface OnItemClickCallBack {
+        void onItemClick(SomeModel someModel);
+    }
+
 }

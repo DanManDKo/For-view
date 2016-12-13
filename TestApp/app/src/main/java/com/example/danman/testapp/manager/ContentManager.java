@@ -1,6 +1,6 @@
 package com.example.danman.testapp.manager;
 
-import com.example.danman.testapp.ui.model.SomeModel;
+import com.example.danman.testapp.model.SomeModel;
 
 import java.util.ArrayList;
 import java.util.List;

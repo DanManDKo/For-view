@@ -3,26 +3,30 @@ package com.example.danman.testapp.ui.activity;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.danman.testapp.App;
 import com.example.danman.testapp.R;
 import com.example.danman.testapp.manager.ContentManager;
+import com.example.danman.testapp.manager.SearchManager;
 import com.example.danman.testapp.ui.adapter.ViewPagerAdapter;
 import com.example.danman.testapp.ui.fragment.PageFragment;
-import com.example.danman.testapp.ui.model.SomeModel;
+import com.example.danman.testapp.model.SomeModel;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
     private Toolbar mToolbar;
     private ViewPager mViewPager;
     private ViewPagerAdapter mViewPagerAdapter;
@@ -32,16 +36,20 @@ public class MainActivity extends AppCompatActivity {
     private ActionBarDrawerToggle mToggle;
     private final int FIRST_CARD = 0;
     private final int SECOND_CARD = 1;
+    private List<PageFragment> mFragments;
+    private SearchManager mSearchManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContentManager = App.getContentManager();
+        mSearchManager = App.getSearchManager();
         initView();
     }
 
     private void initView() {
+        initFragments();
         initViewPager();
         initDrawer();
         initToolbar();
@@ -89,6 +97,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void initFragments() {
+        mFragments = new ArrayList<>();
+        mFragments.add(PageFragment.newInstance((ArrayList<SomeModel>) mContentManager.getDataForFirst()));
+        mFragments.add(PageFragment.newInstance((ArrayList<SomeModel>) mContentManager.getDataForSecond()));
+        mSearchManager.setListeners(mFragments);
+    }
+
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -97,13 +112,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViewPager() {
         mViewPager = (ViewPager) findViewById(R.id.view_pager_main);
-        List<PageFragment> fragments = new ArrayList<>();
         mViewPager.setClipToPadding(false);
         mViewPager.setPadding(125, 0, 125, 0);
         mViewPager.setPageMargin(25);
-        fragments.add(PageFragment.newInstance((ArrayList<SomeModel>) mContentManager.getDataForFirst()));
-        fragments.add(PageFragment.newInstance((ArrayList<SomeModel>) mContentManager.getDataForSecond()));
-        mViewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), fragments);
+        mViewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), mFragments);
         mViewPager.setAdapter(mViewPagerAdapter);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -113,21 +125,41 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int position) {
-                if (position == 0) {
+                if (position == FIRST_CARD) {
                     mNavigationView.setCheckedItem(R.id.first_item);
-
-                } else if (position == 1) {
+                } else if (position == SECOND_CARD) {
                     mNavigationView.setCheckedItem(R.id.second_item);
-
                 }
             }
 
             @Override
             public void onPageScrollStateChanged(int state) {
-
             }
         });
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        MenuItem searchItem = menu.findItem(R.id.search_action);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
+        searchView.setOnQueryTextListener(this);
+        return true;
+    }
 
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        mSearchManager.sendQuery(mViewPager.getCurrentItem(), query);
+        return true;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+
+        return false;
+    }
+
+    public interface OnTextChangedCallback {
+        void onTextChange(String query);
+    }
 }

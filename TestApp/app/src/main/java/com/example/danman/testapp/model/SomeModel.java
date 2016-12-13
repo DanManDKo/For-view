@@ -1,4 +1,4 @@
-package com.example.danman.testapp.ui.model;
+package com.example.danman.testapp.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

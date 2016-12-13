@@ -4,4 +4,6 @@
     <string name="second_item">Second</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="search">Search</string>
+    <string name="item_clicked">You\'ve just clicked on the item</string>
 </resources>
